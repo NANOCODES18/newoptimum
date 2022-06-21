@@ -1,0 +1,56 @@
+
+body{
+overflow-x: hidden;
+}
+.child-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child-element{
+    position: absolute;
+    top: 70%;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+}
+.market-update{
+    margin-top: 400px; 
+    
+}
+.child-info{
+    position: absolute;
+    top: 70%;
+    width: 90%;
+    height: 50px;
+    background: linear-gradient(135deg, #ee20d6 0%, #0a2fb6 100%);
+    z-index: 1;
+}
+
+
+.btc-overview{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+@media (max-width:1280px){
+    .btc-overview{
+        margin-top: 600px;
+    }
+    
+}
+@media (max-width:500px) {
+    .btc-overview{
+        margin-top: 700px;
+       
+    }
+    
+}
+ @media (max-width:300px){
+    .btc-overview{
+        margin-top: 500px;
+    }
+    
+ }

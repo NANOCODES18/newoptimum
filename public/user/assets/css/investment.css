@@ -1,0 +1,71 @@
+.investment{
+    animation: spining 25s infinite linear;
+}
+@keyframes spining {
+    0%{transform: rotate(0);}
+    100%{transform: rotate(359deg);}
+}
+body{
+    background-color: white;
+}
+.invest-pos{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invest-pos img + img{
+    width: 70px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.pricing-information{
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing-information .stock-contain a{
+    color: black;
+    text-decoration: none;
+}
+.stock-contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3;
+}
+.stock-contain h2{
+    z-index: 10;
+    cursor: pointer;
+    padding: 20px;
+    margin: 20px;
+  
+    box-shadow: 0px 4px 22px -1px #00000014;
+}
+.stock-contain h2:hover{
+    transition: 0.5s linear;
+    background: linear-gradient(135deg, #ee20d6 0%, #0a2fb6 100%);
+    color: white;
+    
+}
+@media (max-width:768px) {
+    .stock-contain{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+    }
+}
+@media (max-width:480px) {
+    .stock-contain{
+        grid-template-columns: 1fr ;
+        
+    }
+}

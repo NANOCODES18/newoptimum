@@ -1,0 +1,174 @@
+.card-father .login-card {
+  width: 70vw;
+  height: auto;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 4px 34px 1px #60606012;
+}
+
+.form-first {
+  display: flex;
+
+  justify-content: center;
+  margin: 5px 20px;
+}
+body{
+  overflow-x: hidden;
+}
+.login-contain {
+  display: flex;
+
+  justify-content: space-between;
+}
+.login-contain div {
+  width: 50%;
+  text-align: space;
+  padding: 20px 10px;
+  border-radius: 5px;
+  color: #a1a1a1;
+  text-transform: uppercase;
+  margin: 5px;
+  text-align: center;
+}
+.login-contain div  a{
+  color: #a1a1a1;
+  text-decoration: none;
+}
+.login-contain div:hover{
+  background: #eeeeee;
+  color: #a1a1a1;
+}
+.form-first input {
+  background: #efefef;
+  border: none;
+  margin: 10px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+.for-login {
+  display: block;
+}
+.for-login input {
+  width: 100%;
+  position: relative;
+}
+form p {
+  text-align: center;
+  color: #a1a1a1;
+}
+form p a{
+  color: #a1a1a1;
+  text-decoration: none;
+}
+.form-first label {
+  color: #a1a1a1;
+}
+.form-div {
+  margin: auto;
+  max-width: 500px;
+  padding: 20px;
+}
+.refer {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+.refer input {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  text-align: center;
+  background: #efefef;
+  border: none;
+}
+.refer p {
+  color: #a1a1a1;
+  text-transform: capitalize;
+}
+.sign {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.sign button {
+  text-transform: capitalize;
+  background: radial-gradient(
+      60.96% 233.66% at 19.41% -27.87%,
+      #0f8cff 0%,
+      #7c3394 51.04%,
+      #4a058a 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+.sign button a{
+  color: white;
+  text-decoration: none;
+}
+.sign h4 {
+  text-transform: capitalize;
+  color: #a1a1a1;
+  padding: 10px;
+}
+.sign h4  a{
+  color: #a1a1a1;
+  text-decoration: none;
+}
+footer .last-hr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 710px) {
+  /* .card-father .login-info{
+    flex-direction: column-reverse;
+  } */
+  .form-first {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .form-first div {
+    width: 100%;
+  }
+  .form-first input {
+    background: #efefef;
+    border: none;
+    margin: 10px;
+    /* height: 30px; */
+    border-radius: 10px;
+    padding: 5px;
+    width: 90%;
+    text-transform: capitalize;
+  }
+  .refer input {
+    width: 3vw;
+    height: 3vh;
+    margin: 5px;
+  }
+}
+@media (max-width: 480px){
+  .sign {
+    flex-direction: column-reverse;
+}
+.refer{
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.refer input {
+  width: 15px;
+  height: 15px;
+}
+}

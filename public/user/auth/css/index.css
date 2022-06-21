@@ -1,0 +1,501 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;600&family=Freehand&family=Indie+Flower&family=Lobster&family=Lora&family=Nova+Mono&family=Oswald:wght@200;300&family=Overlock+SC&family=Oxygen+Mono&family=Oxygen:wght@300&family=Poppins:wght@100;200;300&family=Righteous&family=Roboto:wght@100;300;400;500;900&display=swap");
+@import url("boiler-plate.css");
+@import url("market.css");
+@import url("signup.css");
+@import url("aboutus.css");
+@import url("signin.css");
+@import url("contactus.css");
+@import url("footer.css");
+
+/*Fundlux landing page styles */
+.header-wrapper {
+  background: url("../../assets/images/Crypto_25_Feb_08\ 1.svg") center
+    no-repeat;
+  color: #fff;
+  margin-bottom: 4rem;
+  position: relative;
+  background-size: cover;
+}
+body{
+    overflow-x:hidden ;
+}
+html{
+    overflow-x: hidden;
+}
+.nav-link {
+  padding: 1.2rem 0;
+}
+.nav-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 0.6rem;
+}
+.nav-list a {
+  color: #fff;
+  font-size: 60%;
+  font-weight: 600;
+}
+.banner-section {
+  padding: 2rem 4rem;
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(
+    116.87deg,
+    #9f8c45 8.03%,
+    #ffffff 37.42%,
+    #ea8fd6 66.81%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.bitcoin-logo-log {
+  height: 80px;
+  background-color: teal;
+  width: 95%;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* main section tyles */
+.main-site-section {
+  padding: 2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.get-started-button {
+  padding: 0.4rem;
+  background: #bf8c09;
+  background: radial-gradient(
+      60.96% 233.66% at 19.41% -27.87%,
+      #bf8c09 0%,
+      #decb1f 51.04%,
+      #7c4b00 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  display: block;
+  text-align: center;
+  width: 100px;
+  margin: 1rem 0 8rem 0;
+}
+
+/* offeresd services section in main-site-section */
+.service-lists-cards {
+  font-size: 70%;
+  font-weight: normal;
+  margin: 2rem 0;
+}
+.invest-button {
+  padding: 0.4rem;
+  background: #bf8c09;
+  background: radial-gradient(
+      60.96% 233.66% at 19.41% -27.87%,
+      #bf8c09 0%,
+      #decb1f 51.04%,
+      #7c4b00 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  display: inline-block;
+  width: 100px;
+}
+.offered-services h2 {
+  text-align: center;
+  margin: 0 0 2rem 0;
+  font-size: 70%;
+}
+.offered-services h3 {
+  text-align: center;
+  font-size: 70%;
+  font-weight: 800;
+}
+.card-container {
+  margin: 0 0 1.4rem 0;
+  padding: 1.2rem;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 5px;
+}
+.card-container figcaption* {
+  margin: 0.5rem;
+}
+
+/* Trade tools section styles */
+.trade-tools {
+  font-size: 50%;
+  font-weight: normal;
+}
+.trade-tools-img img {
+  width: 100%;
+  animation: bouncing-img 1.5s infinite;
+}
+@keyframes bouncing-img {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.trade-tools-item dl {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.trade-tools dt {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #8c6005;
+}
+.trade-tools dd {
+  margin: 0;
+}
+.trade-tools {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.trade-tools-img {
+  flex-basis: 100%;
+}
+.aside-items {
+  align-items: flex-start;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+.aside-items span {
+  background: #ffffff;
+  box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.11);
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.aside-items img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*chooseus section check the preceeding code*/
+/* media-section styles */
+.media-section {
+  margin: 4rem 0 0 0;
+}
+.media-empty-box {
+  height: 200px;
+  background: #333;
+  margin-bottom: 2rem;
+}
+.media-invest-card {
+  height: 250px;
+  background: #999;
+  padding: 10rem 0 0 0;
+}
+.media-invest-button {
+  padding: 0.4rem;
+  color: #fff;
+  border-radius: 5px;
+  background: radial-gradient(
+      60.96% 233.66% at 19.41% -27.87%,
+      #0f8cff 0%,
+      #7c3394 51.04%,
+      #4a058a 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  font-weight: 400;
+  font-size: 0.9rem;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* last section before footer  section*/
+.closing-section {
+  /* border:1px solid red; */
+  position: relative;
+}
+.empty-box-1,
+.empty-box-2 {
+  height: 100px;
+}
+.empty-box-1 {
+  background: #ddd;
+}
+.empty-box-2 {
+  background: coral;
+}
+
+/*choice section styles || focus*/
+.chooseus-section {
+  font-size: 45%;
+}
+.choice-menu {
+  background: url("../images/btc-bg.svg") center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+.choice-menu > p {
+  font-size: 1rem;
+  padding: 1rem 0 0 0;
+  font-weight: 800;
+}
+.payout-list-menu {
+  padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+}
+.payout-list-menu li {
+  flex-basis: 48%;
+}
+.payout-list-menu img {
+  width: 100%;
+}
+.circle-batch {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  top: 90%;
+}
+.circle-batch span {
+  background: #ffffff;
+  height: 35px;
+  flex-basis: 35px;
+  display: block;
+  margin: 1rem;
+  border-radius: 50%;
+  box-shadow: 0px 4px 30px -1px rgba(0, 0, 0, 0.15);
+}
+.index-line-div {
+  height: 50px;
+}
+.latest-transaction {
+  margin: 5rem 0;
+  /*padding:0 auto;*/
+  font-size: 90%;
+  width: 100%;
+}
+.latest {
+  width: 100%;
+}
+
+.latest-transaction .latest-items {
+  background: #ddd;
+  padding: 0.6rem;
+  border-radius: 5px;
+  overflow-y: scroll;
+  max-height: 250px;
+}
+.latest-transaction .latest-items::-webkit-scrollbar {
+  background: transparent;
+  border-radius: 5px;
+  width: 10px;
+  height: 50px;
+}
+.latest-transaction .latest-items::-webkit-scrollbar-thumb {
+  background: #b5b5b5;
+  border-radius: 2px;
+}
+
+.latest-items figure,
+.latest-items h4,
+.latest-items p {
+  margin: 0;
+  padding: 0;
+}
+.latest > p {
+  font-size: 0.9rem;
+  color: #3e45ff;
+  margin: 2rem 0 0 0;
+}
+.latest-items figure {
+  margin: 0 0 0.4rem 0;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.latest-items figure img {
+  border-radius: 6px;
+}
+
+.items-caption span {
+  margin: 0.4rem 0 0 0;
+  font-size: 0.6rem;
+  display: block;
+  color: #8bfdab;
+}
+
+/* media queries styles 
+/* for tablet devices */
+@media (min-width: 410px) {
+  .nav-link {
+    padding: 1.4rem;
+  }
+  .nav-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  .nav-list a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px;
+  }
+
+  .service-lists-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .card-container {
+    flex-basis: 24%;
+  }
+  /*trade section*/
+
+  .media-section {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 4%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .media-invest-card {
+    flex-basis: 22%;
+  }
+  .media-empty-box {
+    flex-basis: 48%;
+  }
+  /* section styles */
+  .closing-section {
+    position: relative;
+    margin-top: 5rem;
+  }
+  .empty-box-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    width: 30%;
+    height: 240px;
+    transform: translate(-50%, -50%);
+    /* the transform property above is same as the code written below */
+    /* margin-top:-130px;
+margin-left:-20%; */
+  }
+  .empty-box-1 {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+  }
+
+  /*choice section styles*/
+  .latest-transaction {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 4%;
+    justify-content: space-between;
+  }
+  .latest-items figure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .payout-list-menu {
+    height: 120px;
+    justify-content: space-around;
+  }
+  .payout-list-menu li {
+    flex-basis: 22%;
+  }
+
+  .circle-batch span {
+    height: 80px;
+    flex-basis: 80px;
+  }
+  .circle-batch {
+    top: 70%;
+  }
+}
+
+/*for desktop devices*/
+@media (min-width: 810px) {
+  .nav-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    gap: 0.6rem;
+    padding: 10px;
+  }
+  .latest {
+    flex-basis: 48%;
+  }
+
+  .card-container {
+    flex-basis: 24%;
+  }
+
+  .circle-batch {
+    gap: 4rem;
+  }
+
+  .circle-batch span {
+    height: 100px;
+    flex-basis: 100px;
+  }
+
+  .trade-tools {
+    gap: 4%;
+  }
+  .trade-tools-item {
+    flex-basis: 48%;
+  }
+  .aside-items {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 4%;
+    text-align: left;
+  }
+}
+@media (max-width: 410px) {
+    .nav-link {
+      padding: 1.4rem;
+    }
+    .nav-list {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      gap: 1rem;
+    }
+    .nav-link a{
+        font-size: 2vw;
+    }
+}
