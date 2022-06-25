@@ -213,3 +213,16 @@ font-size:1.4rem;
       z-index: 100;
       position: fixed;
     }
+    @media (min-width:1000px) {
+      .signup-form-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+      place-items: center;
+      }
+    }
+    @media(max-width:768px){
+      .on-it{
+        height: 100px;
+      }
+    }

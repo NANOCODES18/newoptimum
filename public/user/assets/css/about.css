@@ -151,7 +151,7 @@ header .card {
   height: 300px;
 } */
 .main-brother {
-  margin-top: 300px;
+  margin-top: 400px;
 }
 .main-text {
   display: flex;
@@ -194,17 +194,43 @@ hr {
   border: 1px solid rgba(224, 224, 224, 1);
 }
 .team {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
   align-items: center;
   margin: 20px;
 }
 .team-members {
   height: 250px;
-  width: 260px;
-  border-radius: 0px;
-  background-color: rgba(217, 217, 217, 1);
+ background-color: white;
   margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.team-members p{
+  width: 90%;
+  margin: 10px;
+}
+.team-members h3{
+  text-align: center;
+  
+}
+.teammy{
+  background: radial-gradient(
+    60.96% 233.66% at 19.41% -27.87%,
+    #0f8cff 0%,
+    #7c3394 51.04%,
+    #4a058a 100%
+  );
+  color: white;
+}
+.teammy h3{
+  color: white;
+}
+.team-members img{
+  height: 70px;
+  width: 70px;
+  margin: 10px;
 }
 .cert {
   /* display: flex; */
@@ -426,4 +452,14 @@ footer .input input[type="text"] ::placeholder {
   .team {
     grid-template-columns: 1fr;
   }
+  .team-members {
+    height: auto;
+   
+  }
+  .team-members img{
+    height: 50px;
+    width: 50px;
+    
+  }
 }
+
