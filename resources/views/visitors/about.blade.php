@@ -46,11 +46,11 @@
         </div>
     </div>
     </div>
-    
+
     </header>
     <!-- <div class="body-text"></div> -->
     <div class="main-text main-brother">
-        <p>
+        <p class="">
             Using a unique strategy of the game in the stock markets, our specialists are guaranteed to bring profit to all
             our partners, so you can not worry about the safety of their funds, despite the potential level of risk of this
             type of investment. In staff of our company incessantly, in the mode 24/7 work more than 300 employees among
@@ -128,8 +128,26 @@
                 <div class="hr"></div>
             </div>
             <div class="ptag">
-                <p>
-                    To empower individual investors to take control of their financial lives, free from the high costs and conflicts of traditional brokerage firms.
+                
+                
+                    To create value for our shareholders and maintain it over the long-term, To provide unique and high quality financial products and services which are in line with the market
+                        and comply with the principles of elth creation <br><br>
+                                  
+                    
+                    To meet the needs of customers in simple, flexible and creative ways, To provide our investors with sound investment advice, drawing on the strength of our experience and
+                    knowledge, while keeping abreast of the latest financial sector developments.
+                    <br><br>
+
+
+               
+                  
+
+                        To maintain a strong work culture by attracting and rewarding high quality staff, and motivating
+                        them to
+                    
+                
+
+
                 </p>
             </div>
             <div class="purpose">
@@ -137,9 +155,10 @@
                 <div class="hr"></div>
             </div>
             <div class="ptag">
-                <p>
-                    To be recognized as a regional leader in the provision of high quality business, and investment services and products.
-                </p>
+                
+                    To be recognized as a regional leader in the provision of high quality business, and investment services
+                    and products.
+                
             </div>
         </div>
     </div>

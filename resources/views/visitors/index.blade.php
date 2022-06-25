@@ -727,59 +727,35 @@ setInterval(function(){
 <figure>
 <h1>PACKAGES</h1>
 <div class="pricing-container">
-<div class="card-pricing">
-<div class="card-title">
-    <h2>Starter</h2>
-    <p><i class="fa fa-dollar"></i><Span>1000</Span> -Minimum</p>
-</div>
-<div class="card-content">
-    <ul>
-        <li><i class="fa fa-dollar"></i><Span>10000</Span> -maximum</li>
-        <li><i class="fa fa-check-circle"></i>Weekly Return</li>
-        <li><i class="fa fa-check-circle"></i> For 4 times</li>
-        <li><i class="fa fa-check-circle"></i>100% ROI Each time</li>
-        <li></i><i class="fa fa-dollar"></i>55,000 Total Return</li>
-        <li><i class="fa fa-check-circle"></i>24/7 Support</li>
-    </ul>
-    <button><a href="">Sign-up</a></button>
-</div>
-</div>
-<div class="card-pricing">
-<div class="card-title">
-<h2>Silver</h2>
-<p><i class="fa fa-dollar"></i><Span>3000</Span> -Minimum</p>
-</div>
-<div class="card-content">
-<ul>
-    <li><i class="fa fa-dollar"></i><Span>30000</Span> -maximum</li>
-    <li><i class="fa fa-check-circle"></i>Weekly Return</li>
-    <li><i class="fa fa-check-circle"></i> For 4 times</li>
-    <li><i class="fa fa-check-circle"></i>100% ROI Each time</li>
-    <li></i><i class="fa fa-dollar"></i>55,000 Total Return</li>
-    <li><i class="fa fa-check-circle"></i>24/7 Support</li>
-</ul>
-<button><a href="">Sign-up</a></button>
-</div>
-</div>
-<div class="card-pricing">
-<div class="card-title">
-  <div class="card-title">
-    <h2>Gold</h2>
-    <p><i class="fa fa-dollar"></i><Span>40000</Span> -Minimum</p>
-</div>
-<div class="card-content">
-    <ul>
-        <li><i class="fa fa-dollar"></i><Span>400000</Span> -maximum</li>
-        <li><i class="fa fa-check-circle"></i>Weekly Return</li>
-        <li><i class="fa fa-check-circle"></i> For 4 times</li>
-        <li><i class="fa fa-check-circle"></i>100% ROI Each time</li>
-        <li></i><i class="fa fa-dollar"></i>55,000 Total Return</li>
-        <li><i class="fa fa-check-circle"></i>24/7 Support</li>
-    </ul>
-    <button><a href="">Sign-up</a></button>
-</div>
-</div>
-</div>
+
+
+  @if ($investmentplans)
+    @foreach ($investmentplans as $plan)
+        
+   
+
+    <div class="card-pricing">
+        <div class="card-title">
+            <h2>{{$plan->name}}</h2>
+            <p><i class="fa fa-dollar"></i><Span>${{$plan->minimum }}</Span> -Minimum</p>
+        </div>
+        <div class="card-content">
+            <ul>
+                <li><i class="fa fa-dollar"></i><Span>${{$plan->maximum }}</Span> -maximum</li>
+                <li><i class="fa fa-check-circle"></i>{{$plan->percentage * $plan->noofrepeat }}%  monthly Return</li>
+                <li><i class="fa fa-check-circle"></i>  4 times</li>
+                <li><i class="fa fa-check-circle"></i>{{$plan->percentage }}% ROI Each time</li>
+                <li></i><i class="fa fa-dollar"></i>1,250+ Total Return</li>
+                <li><i class="fa fa-check-circle"></i>{{$plan->noofrepeat }} No of Times</li>
+                <li><i class="fa fa-check-circle"></i>24/7 Support</li>
+            </ul>
+            <button><a href="{{route('login')}}">Get Started</a></button>
+        </div>
+    </div>
+    @endforeach
+        
+    @endif
+
 </div>
 </figure>
 
