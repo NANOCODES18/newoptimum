@@ -34,10 +34,7 @@
 <div class="card-text" >
   <h3>Binary Option</h3>
   <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-    atque, illo ullam debitis eveniet optio dignissimos doloremque,
-    distinctio quisquam exercitationem est tenetur maiores,
-    aspernatur corrupti hic? Tempore reiciendis velit fugiat?
+    A binary option is a financial exotic option in which the payoff is either some fixed monetary amount or nothing at all. The two main types of binary options are the cash-or-nothing binary option and the asset-or-nothing binary option. Which you are free to enjoy with us
   </p>
   <button>Read more</button>
 </div>
@@ -50,10 +47,8 @@
 <div class="card-text" >
   <h3>Stocks & ETF</h3>
   <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-    harum accusantium perspiciatis maiores, explicabo obcaecati
-    rerum reiciendis dolore at laborum, accusamus provident error
-    nulla fuga eum officia minus expedita quod!
+    A stock or share is a financial instrument that represents represents a proportionate claim on a company or corporation, its assets and 
+  and earnings...An exchange-traded fund (E.T.F)is a type of investment fund and exchange-traded product, i.e. they are traded on stock exchanges, We offer both services free to the public for them to make profits with us
   </p>
   <button>Read more</button>
 </div>
@@ -66,11 +61,8 @@
 <div class="card-text">
   <h3>Crypto Currency</h3>
   <p>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
-    nesciunt aspernatur reiciendis architecto molestiae quas
-    suscipit deleniti fuga voluptate modi? Commodi officiis harum
-    libero similique eaque corrupti unde aperiam necessitatibus?
-  </p>
+    {{$compd? $compd->companyname:"company name"}} now offers all traders the opportunity to trade a wide range of the top ranked digital coins 24/7*. 
+    Today cryptocurrencies have become known to most people, Surprising as it might be, anyone can invest in the crypto market to make a profit  </p>
   <button>Read more</button>
 </div>
 </div>
@@ -89,27 +81,24 @@
 <div class="trading-content"data-aos="fade-up-right">
 <img src="user/assets/images/Group (1).svg" alt="time">
 <div class="text">
-<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, esse.</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nemo, dicta autem eveniet
-  excepturi officiis cupiditate repellat voluptate earum vitae?
+<h3>OPEN AN ACCOUNT</h3>
+<p>To open an account, simply click on the "Register" button on the main page. The next page is the registration form that you need to fill out. This shouldn’t take more than a few minutes. Once you’ve done that, you’ll receive an email from us, and you’re done.
 </p>
 </div>
 </div>
 <div class="trading-content" data-aos="fade-up-right">
 <img src="user/assets/images/Group (1).svg" alt="time">
 <div class="text">
-<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, esse.</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nemo, dicta autem eveniet
-  excepturi officiis cupiditate repellat voluptate earum vitae?
+<h3>LOGIN TO MEMBER'S AREA</h3>
+<p>Once you’ve opened an account, the next thing would be to familiarize yourself with how different sections of your account works. To start, go to the login page and enter your registration username and chosen password.
 </p>
 </div>
 </div>
 <div class="trading-content" data-aos="fade-up-right">
 <img src="user/assets/images/Group (1).svg" alt="time">
 <div class="text">
-<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, esse.</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nemo, dicta autem eveniet
-  excepturi officiis cupiditate repellat voluptate earum vitae?
+<h3>MAKE YOUR FIRST DEPOSIT & WATCH YOUR CAPITAL GROW</h3>
+<p>To start earning, you need to make a deposit. You can do this from the deposit section of your account. The minimum deposit amount is different for different plans, and you are allowed to make as many deposits as you want. After you have made a deposit, select an investment plan and invest in then watch your investment grow.
 </p>
 </div>
 </div>
@@ -138,7 +127,7 @@
 <img src="user/assets/images/buy-sell-bitcoins.png" alt="">
 <div class="fund-text">
 <h3>Withdraw Your Profit</h3>
-<p>Request for withdrawal and receive it within 1day.</p>
+<p>Request for withdrawal and receive it within 1 day.</p>
 </div>
 </div>
 </div>
@@ -161,8 +150,8 @@
 
 </div>
 <div class="about-text">
-<h1>OPTIMUM FINANCIALS</h1>
-<P>Optimum Finiancials Company is a distinctive investment company offering our investors access to high-growth investment opportunities in Bitcoin markets and other services. We implement best practices of trading & mining of Bitcoins through our operations, while offering flexibility in our investment plans. Our company benefits from an extensive network of global clients.</P>
+<h1>{{$compd? $compd->companyname:"company name"}}</h1>
+<P>{{$compd? $compd->companyname:"company name"}} Company is a distinctive investment company offering our investors access to high-growth investment opportunities in Bitcoin markets and other services. We implement best practices of trading & mining of Bitcoins through our operations, while offering flexibility in our investment plans. Our company benefits from an extensive network of global clients.</P>
 <h3><span>OUR MISSION</span>|OUR ADVANTAGES| OUR GUARANTY</h3>
 <P>Our aim is to utilize our expertise & knowledge which will benefit our clients and the users of our services.</P>
 <button><a href="user/about.html" style="color: white; text-decoration:none;">READ MORE</a></button>
@@ -450,8 +439,8 @@ allowfullscreen>
 <div class="stocky" style="display: flex; justify-content:center; padding:20px;">
 <div class="stock-flex">
 <div class="buy-crypto" data-aos="fade-up-left">
-<h3>Stocks & ETFs</h3>
-<p>Invest in stocks with 0% commission. Buy in bulk or just a fraction.</p>
+<h3>Cryptocurrencies Trading</h3>
+<p>{{$compd? $compd->companyname:"company name"}} now offers all traders the opportunity to trade a wide range of the top ranked digital coins 24/7*.</p>
 <button><a href="user/login and signup/signup.html">Invest in stocks</a></button>
 <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="BTC" lcw-base="USD" lcw-period="d" lcw-color-tx="#000000" lcw-color-bg="#ffffff" lcw-border-w="0" ></div>
 <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="SOL" lcw-base="USD" lcw-period="d" lcw-color-tx="#000000" lcw-color-bg="#ffffff" lcw-border-w="0" ></div>
@@ -459,8 +448,8 @@ allowfullscreen>
 </div>
 
 <div class="buy-crypto" data-aos="zoom-in">
-<h3>Stocks & ETFs</h3>
-<p>Invest in stocks with 0% commission. Buy in bulk or just a fraction.</p>
+<h3>Fores Trading</h3>
+<p>Forex is a portmanteau of foreign currency and exchange. </p>
 <button><a href="user/login and signup/signup.html">Invest in stocks</a></button>
 
 <div class="btcwdgt-chart" bw-cash="true" bw-noshadow="true"></div>
@@ -468,7 +457,7 @@ allowfullscreen>
 <div class="buy-crypto" data-aos="fade-up-right">
 <h3>Stocks & ETFs</h3>
 <p>Invest in stocks with 0% commission. Buy in bulk or just a fraction.</p>
-<button><a href="user/login and signup/signup.html">Invest in stocks</a></button>
+<button><a href="{{route('register')}}">Invest in stocks</a></button>
 <div class="btcwdgt-chart" bw-cash="true" bw-theme="light"></div>
 
 </div>
@@ -484,7 +473,7 @@ allowfullscreen>
 <button> <a href="user/login and signup/signup.html" >Start Trading</a></button>
 <div style="border-left: 1px solid black;margin-top: 40px;padding: 15px;">
 <h1 id="demo"></h1>
-<h6>TRADES OPENED ON OPTIMUM FINANCIALS</h6>
+<h6>TRADES OPENED ON {{$compd? $compd->companyname:"company name"}}</h6>
 <script>
 
 let interval = setInterval(function(){
@@ -629,8 +618,8 @@ setInterval(function(){
           <img src="user/images/profile1.jpg" alt="">
         </div>
         <div class="rating">
-          <span class="name">Romeo</span>
-          <span class="testimony">Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet.</span>
+          <span class="name">Willie E. Maynard</span>
+          <span class="testimony">Then plan is to not only protect the value of your assets but to increase them. I am glad with having professional traders that manage money in high risk markets manage my portfolio here and the profit have been over whelming. </span>
         </div>
       </div>
     </div>
@@ -640,8 +629,8 @@ setInterval(function(){
           <img src="user/images/profile2.jpg" alt="">
         </div>
         <div class="rating">
-          <span class="name">Romeo</span>
-          <span class="testimony">Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet.</span>
+          <span class="name">Francesca Boyle</span>
+          <span class="testimony">I wish to thank you for this divine help because after two weeks we are out of debt trading with your strategy and also the amount you made ($135,776) profit totaling $220,338 in equity from the $84,562 we gave to you made us pay our clients </span>
         </div>
       </div>
     </div>
@@ -651,8 +640,8 @@ setInterval(function(){
           <img src="user/images/profile3.jpg" alt="">
         </div>
         <div class="rating">
-          <span class="name">Romeo</span>
-          <span class="testimony">Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet.</span>
+          <span class="name">Ryan J. Roseberry</span>
+          <span class="testimony">INVEST because only one month the account of $5000 has grown to $16,500 profit and I've made over 50% within one month which has been equally shared, It only takes a few seconds to initiate your withdrawals and have your earnings paid to you. Most importantly all withdrawals are instant.</span>
         </div>
       </div>
     </div>
@@ -662,30 +651,8 @@ setInterval(function(){
           <img src="user/images/profile4.jpg" alt="">
         </div>
         <div class="rating">
-          <span class="name">Romeo</span>
-          <span class="testimony">Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet.</span>
-        </div>
-      </div>
-    </div>
-    <div class="swiper-slide slider-card">
-      <div class="card-content">
-        <div class="image">
-          <img src="user/images/profile5.jpg" alt="">
-        </div>
-        <div class="rating">
-          <span class="name">Romeo</span>
-          <span class="testimony">Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet.</span>
-        </div>
-      </div>
-    </div>
-    <div class="swiper-slide slider-card">
-      <div class="card-content">
-        <div class="image">
-          <img src="user/images/profile6.jpg" alt="">
-        </div>
-        <div class="rating">
-          <span class="name">Romeo</span>
-          <span class="testimony">Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet.</span>
+          <span class="name">Hamish Wienholt</span>
+          <span class="testimony">Your portfolio management is well planned and structured which made me know that its not a PONSI scheme. After starting investment with you people I now see reasons to know that there are people making it BIG in TRADING .</span>
         </div>
       </div>
     </div>
@@ -695,19 +662,45 @@ setInterval(function(){
           <img src="user/images/profile7.jpg" alt="">
         </div>
         <div class="rating">
-          <span class="name">Romeo</span>
-          <span class="testimony">Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet.</span>
+          <span class="name">Michelle M. Coleman</span>
+          <span class="testimony">Wow this is wonderfully, it works like magic. More grace to your elbow {{$compd? $compd->companyname:"company name"}} Platform. You guys are just sweet, thanks so so much for good and excellent service delivery</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="swiper-slide slider-card">
+      <div class="card-content">
+        <div class="image">
+          <img src="user/images/profile6.jpg" alt="">
+        </div>
+        <div class="rating">
+          <span class="name">Mark K. Cool</span>
+          <span class="testimony">I have been into many trading close to 4years now. Many strategy I have tried but all failed. I got frustrated and was almost calling it quit. Little did I know that a {{$compd? $compd->companyname:"company name"}} existed....Thanks i stumbled on there facebook advert</span>
         </div>
       </div>
     </div>
     <div class="swiper-slide slider-card">
       <div class="card-content">
         <div class="image">
+          <img src="user/images/profile5.jpg" alt="">
+        </div>
+        <div class="rating">
+          <br>
+          <span class="name">Brian S. Delgado</span>
+          <span class="testimony">Good company to deal with , excellent customer service, fast payment. It takes a lot to trust an investment firm in this climate but i am very happy with there services so far.</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="swiper-slide slider-card">
+      <div class="card-content">
+        <div class="image">
           <img src="user/images/profile8.jpg" alt="">
         </div>
         <div class="rating">
-          <span class="name">Romeo</span>
-          <span class="testimony">Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet.</span>
+         
+          <span class="name">Suzanne W. Nguyen</span>
+          <span class="testimony">Since investing with  {{$compd? $compd->companyname:"company name"}}, we have seen gains in our portfolio in a short space of time which is a reassuring indicator. Lastly I just to say many thanks for a very positive meeting yesterday. </span>
         </div>
       </div>
     </div>
@@ -717,8 +710,9 @@ setInterval(function(){
           <img src="user/images/profile9.jpg" alt="">
         </div>
         <div class="rating">
-          <span class="name">Romeo</span>
-          <span class="testimony">Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet.</span>
+         
+          <span class="name">Cheryl S. Hammack</span>
+          <span class="testimony"> This approaches fully integrates life plans and the financial plans and makes very good sense. {{$compd? $compd->companyname:"company name"}} investment is very client centred and professional and we would happily recommend their services to others.</span>
         </div>
       </div>
     </div>
