@@ -22,6 +22,7 @@
 </div>
 <div class="child-info" style="text-align: center;color:white; font-size:20px;padding: 10px;">Live Updates</div>
 </div>
+
 </header>
 
 <div class="market-update"></div>

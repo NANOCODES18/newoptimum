@@ -11,7 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  overflow-x: hidden;
+  overflow: hidden;
   background: #ececec;
 }
 header {
@@ -20,6 +20,7 @@ header {
 .header-contain {
   height: 80vh;
   
+  
   background-position: center;
   background-image: url(../images/Crypto_25_Feb_08\ 1.svg);
   /* background: linear-gradient(155.22deg, rgba(136, 5, 95, 0.2) 23.79%, rgba(9, 64, 115, 0.2) 64.82%, rgba(25, 25, 26, 0.2) 93.5%); */
@@ -27,7 +28,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px;
-  width: 100vw;
+  /* width: 100vw; */
   animation: bgchange 20s infinite alternate;
 }
 /* @keyframes bgchange {
@@ -162,7 +163,10 @@ header .head-text {
   justify-content: center;
   text-align: right;
   padding: 5px;
+  /* position: absolute!important;
+  top: 0; */
 }
+
 
 
 /* 
@@ -1196,6 +1200,9 @@ footer li a {
   }
 }
 @media (max-width: 700px) {
+  .section-counter h6 {
+    font-size: 4VW;
+}
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1372,6 +1379,11 @@ footer li a {
     height: 103px;
   }
 }
+@media(max-width:480px){
+  header .header-contain{
+    height: 60vh;
+  }
+}
 @media (max-width: 768px) {
   .about{
     display: block;
@@ -1409,6 +1421,7 @@ footer li a {
   background-size: 30%;
   height: 100vh;
   width: 100%;
+  position: fixed;
   z-index: 100;
  
 }
