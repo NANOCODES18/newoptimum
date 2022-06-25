@@ -537,26 +537,25 @@ Route::get('/ourteam', [App\Http\Controllers\VisitorController::class, 'ourteam'
 
 Route::get('/buybtc', [App\Http\Controllers\VisitorController::class, 'buybtc'])->name('buybtc');
 Route::get('/cannabis', [App\Http\Controllers\VisitorController::class, 'cannabis'])->name('cannabis');
-Route::get('/crypto', [App\Http\Controllers\VisitorController::class, 'crypto'])->name('crypto');
+Route::get('/crypto', [App\Http\Controllers\VisitorController::class, 'cryptoplans'])->name('cryptoplans');
 Route::get('/finacialplaning', [App\Http\Controllers\VisitorController::class, 'finacialplaning'])->name('finacialplaning');
-Route::get('/forextrading', [App\Http\Controllers\VisitorController::class, 'forextrading'])->name('forextrading');
+Route::get('/forextrading', [App\Http\Controllers\VisitorController::class, 'forexplans'])->name('forexplans');
 Route::get('/goldinvestment', [App\Http\Controllers\VisitorController::class, 'goldinvestment'])->name('goldinvestment');
 Route::get('/legal', [App\Http\Controllers\VisitorController::class, 'legal'])->name('legal');
 Route::get('/loansandgrant', [App\Http\Controllers\VisitorController::class, 'loansandgrant'])->name('loansandgrant');
 Route::get('/oilandgas', [App\Http\Controllers\VisitorController::class, 'oilandgas'])->name('oilandgas');
 Route::get('/policy', [App\Http\Controllers\VisitorController::class, 'policy'])->name('policy');
-Route::get('/realestate', [App\Http\Controllers\VisitorController::class, 'realestate'])->name('realestate');
+
 Route::get('/retirement', [App\Http\Controllers\VisitorController::class, 'retirement'])->name('retirement');
 Route::get('/services', [App\Http\Controllers\VisitorController::class, 'services'])->name('services');
-Route::get('/stocks', [App\Http\Controllers\VisitorController::class, 'stocks'])->name('stocks');
+
 Route::get('/teams', [App\Http\Controllers\VisitorController::class, 'teams'])->name('teams');
 Route::get('/pricing', [App\Http\Controllers\VisitorController::class, 'pricing'])->name('pricing');
 
 Route::get('/stockplans', [App\Http\Controllers\VisitorController::class, 'stockplans'])->name('stockplans');
 
-Route::get('/forexplans', [App\Http\Controllers\VisitorController::class, 'forexplans'])->name('forexplans');
 
-Route::get('/cryptoplans', [App\Http\Controllers\VisitorController::class, 'cryptoplans'])->name('cryptoplans');
+
 
 Route::get('/realestateplan', [App\Http\Controllers\VisitorController::class, 'realestateplan'])->name('realestateplan');
 

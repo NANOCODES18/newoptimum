@@ -57,6 +57,7 @@ class VisitorController extends Controller
     }
 
 
+
     public function terms()
     {
         # code...
@@ -311,7 +312,7 @@ function stocks () {
     $company_detail = Sitesetting::where('id', 1)->first();
     $data['compd'] = $company_detail;
     $data['title']="Stocks";
-    return view("visitors.stocks", $data);
+    return view("visitors.stockplans", $data);
 }
 
 

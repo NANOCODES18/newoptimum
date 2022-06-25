@@ -48,7 +48,7 @@
                     <p>Forex is a portmanteau of foreign currency and exchange. Foreign exchange is the process of
                                                     changing one currency into another currency for a variety of reasons,
                                                     usually for commerce, trading, or tourism. According to a recent triennial report...</p>
-                                                <a href="{{route('forextrading')}}" class="btn">Read More</a>
+                                                <a href="{{route('forexplans')}}" class="btn">Read More</a>
                 </div>
             </div><!-- .col -->
         </div>
@@ -65,7 +65,7 @@
                     <p>Real estate investments involves the purchase, ownership, management, rental and/or sale of real estate for profit.
                                                     Improvement of realty property as part of a real estate investment strategy is generally considered to be a
                                                     sub-specialty of real estate investing...</p>
-                                                <a href="{{route('realestate')}}" class="btn">Read More</a>
+                                                <a href="{{route('realestateplan')}}" class="btn">Read More</a>
                 </div>
             </div><!-- .col -->
         </div>
@@ -130,7 +130,7 @@
                                                 Finvestrade  now offers all traders the opportunity to trade a wide range of the top ranked digital
                         coins 24/7*. Today cryptocurrencies have become known to most people...
                                                 </p>
-                    <a href="{{route('crypto')}}" class="btn">Read More</a>
+                    <a href="{{route('cryptoplans')}}" class="btn">Read More</a>
                 </div>
             </div><!-- .col -->
         </div><!-- .row -->
@@ -202,7 +202,7 @@
                                         and represents a proportionate claim on its assets (what it owns)
                                         and earnings...
                                                 </p>
-                    <a href="{{route('stocks')}}" class="btn">Read More</a>
+                    <a href="{{route('stockplans')}}" class="btn">Read More</a>
                 </div>
             </div><!-- .col -->
         </div>

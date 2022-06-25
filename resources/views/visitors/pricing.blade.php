@@ -11,22 +11,22 @@
 <div class="pricing-information">
   <h2>pricing</h2>
   <div class="stock-contain">
-    <a href="{{route('stocks')}}">
+    <a href="{{route('stockplans')}}">
       <h2>
         Stock investment
         <i class="fa fa-arrow-right" aria-hidden="true"></i></h2
     ></a>
-    <a href="{{route('forextrading')}}">
+    <a href="{{route('forexplans')}}">
       <h2>
         Forex investment
         <i class="fa fa-arrow-right" aria-hidden="true"></i></h2
     ></a>
-    <a href="{{route('crypto')}}">
+    <a href="{{route('cryptoplans')}}">
       <h2>
         Crypto investment
         <i class="fa fa-arrow-right" aria-hidden="true"></i></h2
     ></a>
-    <a href="{{route('realestate')}}">
+    <a href="{{route('realestateplan')}}">
       <h2>
       Real Estate investment
       <i class="fa fa-arrow-right" aria-hidden="true"></i>

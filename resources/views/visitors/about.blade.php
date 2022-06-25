@@ -129,9 +129,7 @@
             </div>
             <div class="ptag">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente,
-                    tenetur. Odio atque animi corporis dolor quam rem harum debitis
-                    nemo, eaque aut accusantium ipsa illo ipsam! Neque cum modi ipsa.
+                    To empower individual investors to take control of their financial lives, free from the high costs and conflicts of traditional brokerage firms.
                 </p>
             </div>
             <div class="purpose">
@@ -140,9 +138,7 @@
             </div>
             <div class="ptag">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente,
-                    tenetur. Odio atque animi corporis dolor quam rem harum debitis
-                    nemo, eaque aut accusantium ipsa illo ipsam! Neque cum modi ipsa.
+                    To be recognized as a regional leader in the provision of high quality business, and investment services and products.
                 </p>
             </div>
         </div>
