@@ -1,108 +1,106 @@
-footer{
-background:url("../../assets/images/Crypto_25_Feb_08\ 1.svg") center no-repeat;
-background-size:cover;
+footer {
+  background: url("../../assets/images/Crypto_25_Feb_08\ 1.svg") center
+    no-repeat;
+  background-size: cover;
 }
-.footer-nav{
-padding:1rem 2rem;
-margin-top:3rem;
-color:#fff;
-
+.footer-nav {
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  color: #fff;
 }
-.footer-nav a{
-color:#fff;
-
+.footer-nav a {
+  color: #fff;
 }
-.footer-nav-item{
-columns:2;
+.footer-nav-item {
+  columns: 2;
 }
-.footer-nav-item ul{
-columns:1;
+.footer-nav-item ul {
+  columns: 1;
 }
-.footer-nav-item{
-font-weight:700;
-line-height:1.5;
+.footer-nav-item {
+  font-weight: 700;
+  line-height: 1.5;
 }
-.footer-nav-item a{
-font-size:95%;
+.footer-nav-item a {
+  font-size: 95%;
 }
 .footer-nav > .footer-nav-item > li {
-margin-bottom:3rem;
+  margin-bottom: 3rem;
 }
-.footer-nav-item ul{
-font-weight:400;
+.footer-nav-item ul {
+  font-weight: 400;
 }
-.footer-nav-item ul a{
-font-size:70%;
-}
-
-.fa{
-display:block;
-font-size:1rem;
-padding:0.5rem;
+.footer-nav-item ul a {
+  font-size: 70%;
 }
 
-.footer-copyright{
-text-align:center;
-display:block;
-border-top:1px solid #fff;
-padding:0.5rem;
-color:#fff;
-margin:0 1rem;
+.fa {
+  display: block;
+  font-size: 1rem;
+  padding: 0.5rem;
 }
-.news-letter-box{
-text-align:right;
-background:gray;
-padding:1rem 1.2rem;
-border-radius:5px;
+
+.footer-copyright {
+  text-align: center;
+  display: block;
+  border-top: 1px solid #fff;
+  padding: 0.5rem;
+  color: #fff;
+  margin: 0 1rem;
 }
-.newsletter-label{
-font-size:0.8rem;
-font-weight:400;
-display:block;
-text-align:left;
+.news-letter-box {
+  text-align: right;
+  background: gray;
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
 }
-.newsletter-input{
-border:none;
-outline:none;
-box-shadow:none;
-width:100%;
-border-radius:4px;
-padding:0.4rem;
-text-align:center;
-font-size:0.5rem;
-background:#FEFEFE;
+.newsletter-label {
+  font-size: 0.8rem;
+  font-weight: 400;
+  display: block;
+  text-align: left;
 }
-.join-button{
-padding:0.4rem;
-background:#3A3FB9;
-border-radius:5px;
-box-shadow:none;
-border:none;
-color:#fff;
-display:inline-block;
-font-weight:400;
-font-size:0.9rem;
-width:100%;
-margin:0.5rem 0 0 0;
+.newsletter-input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.4rem;
+  text-align: center;
+  font-size: 0.5rem;
+  background: #fefefe;
+}
+.join-button {
+  padding: 0.4rem;
+  background: #3a3fb9;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 0.9rem;
+  width: 100%;
+  margin: 0.5rem 0 0 0;
 }
 
 /* media queries */
 /* footer tablet media query */
-@media(min-width:410px){
-.join-button{
-width:100px;
-
-}
+@media (min-width: 410px) {
+  .join-button {
+    width: 100px;
+  }
 }
 
 /* footer desktop media query */
-@media(min-width:810px){
-.footer-nav-item{
-display:flex;
-flex-flow:row wrap;
-justify-content:space-between;
-}
-.footer-nav-item ul{
-display:block;
-}
+@media (min-width: 810px) {
+  .footer-nav-item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .footer-nav-item ul {
+    display: block;
+  }
 }

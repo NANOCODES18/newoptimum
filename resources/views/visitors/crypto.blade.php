@@ -1,9 +1,4 @@
-@extends("layouts.spacedcustomlayout")
-
-@section("body")
-
-
-
+@include('layouts.price-head')
 <div class="invest-pos">
     <img src="user/assets/images/earth.png" alt="" class="investment" />
     <img src="user/assets/images/bitcoin.png" alt="" />
@@ -95,4 +90,4 @@
 </div>
 </figure>
 
-@endsection
+@include('layouts.price-foot')
