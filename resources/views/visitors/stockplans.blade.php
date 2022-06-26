@@ -1,9 +1,7 @@
 
 
 
-@extends("layouts.spacedcustomlayout")
-
-@section("body")
+@include('layouts.price-head')
 
 
 <div class="invest-pos">
@@ -78,5 +76,4 @@
 
 
 
-
-@endsection
+@include('layouts.price-foot')

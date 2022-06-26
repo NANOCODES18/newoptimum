@@ -1,41 +1,42 @@
-@extends("layouts.spacedcustomlayout")
+@include('layouts.price-head')
+    <div class="invest-pos">
+        <img src="user/assets/images/earth.png" alt="" class="investment" />
+        <img src="user/assets/images/bitcoin.png" alt="" />
+    </div>
+    </div>
 
-@section("body")
+    <div class="pricing-information">
+        <h2>pricing</h2>
+        <div class="stock-contain">
+            <a href="{{ route('stockplans') }}">
+                <h2>
+                    Stock investment
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </h2>
+            </a>
+            <a href="{{ route('forexplans') }}">
+                <h2>
+                    Forex investment
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </h2>
+            </a>
+            <a href="{{ route('cryptoplans') }}">
+                <h2>
+                    Crypto investment
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </h2>
+            </a>
+            <a href="{{ route('realestateplan') }}">
+                <h2>
+                    Real Estate investment
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </h2>
+            </a>
+        </div>
+    </div>
 
-<div class="invest-pos">
-    <img src="user/assets/images/earth.png" alt="" class="investment" />
-    <img src="user/assets/images/bitcoin.png" alt="" />
-  </div>
-</div>
-
-<div class="pricing-information">
-  <h2>pricing</h2>
-  <div class="stock-contain">
-    <a href="{{route('stockplans')}}">
-      <h2>
-        Stock investment
-        <i class="fa fa-arrow-right" aria-hidden="true"></i></h2
-    ></a>
-    <a href="{{route('forexplans')}}">
-      <h2>
-        Forex investment
-        <i class="fa fa-arrow-right" aria-hidden="true"></i></h2
-    ></a>
-    <a href="{{route('cryptoplans')}}">
-      <h2>
-        Crypto investment
-        <i class="fa fa-arrow-right" aria-hidden="true"></i></h2
-    ></a>
-    <a href="{{route('realestateplan')}}">
-      <h2>
-      Real Estate investment
-      <i class="fa fa-arrow-right" aria-hidden="true"></i>
-    </h2></a>
-  </div>
-</div>
-
-<!-- investment section -->
-<!-- <figure>
+    <!-- investment section -->
+    <!-- <figure>
 <h1 style="z-index:5;">PACKAGES</h1>
 <div class="pricing-container">
   <div class="card-pricing">
@@ -132,7 +133,7 @@
 </div>
 </div>
 </figure> -->
-<!-- 
+    <!--
 end of investment section -->
 
-@endsection
+    @include('layouts.price-foot')
