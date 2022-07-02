@@ -45,10 +45,10 @@
         </div><!-- .col -->
         <div class="col-lg-5">
             <div class="text-block">
-                <h5 class="heading-xs dash">Finvestrade </h5>
+                <h5 class="heading-xs dash">optimum-financials </h5>
                 <h2>Workforce Optimization</h2>
                 <p class="lead">
-                                        Saving for retirement can be a daunting task, but with a sound strategy, it’s well within reach. Finvestrade  is here to
+                                        Saving for retirement can be a daunting task, but with a sound strategy, it’s well within reach. optimum-financials  is here to
                         bring clarity to retirement
                         planning and set you on your path to success. Here you’ll better understand your options and find the right investment.
 
@@ -68,7 +68,7 @@
             <div class="text-box service-box bg-secondary h-full">
                 <h4 class="fw-6 mtm-5">Quadruple Your Retirement Savings? Really?</h4>
                                         <p>
-                                            Finvestrade  study of worldwide retirement saving habits
+                                            optimum-financials  study of worldwide retirement saving habits
                         discovered that people with some kind of retirement plan have more than three times
                         as much in their nest egg than those with no plan at all.
 

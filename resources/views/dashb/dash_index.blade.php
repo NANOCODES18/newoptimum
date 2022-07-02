@@ -77,7 +77,7 @@
                             <div class="row">
                                 <div class="col-6 col-md-12">
                                     <form class="forms-sample mt-2" action='ref.html' method="post">
-                                        <a href="mailto:?subject=Invitation&body=Hello+dear%2C+I+am+happy+to+invite+you+to+join+Finvestrade+%2C+a+reliable+investment+website+that+helps+you+to+trade+and+return+your+profit.+Use+my+link+to+register+{{route('register')}}%3Frefid%3D{{Auth::user()->id}}"
+                                        <a href="mailto:?subject=Invitation&body=Hello+dear%2C+I+am+happy+to+invite+you+to+join+optimum-financials+%2C+a+reliable+investment+website+that+helps+you+to+trade+and+return+your+profit.+Use+my+link+to+register+{{route('register')}}%3Frefid%3D{{Auth::user()->id}}"
                                             class="btn btn-warning btn-block"><i class='fa fa-envelope'></i> Email</a>
                                     </form>
                                 </div>
@@ -91,14 +91,14 @@
 
                                 <div class="col-6 col-md-12">
                                     <form class="forms-sample mt-2" action='ref.html' method="post">
-                                        <a href="https://wa.me/?text=Hello+dear%2C+I+am+happy+to+invite+you+to+join+Finvestrade+%2C+a+reliable+investment+website+that+helps+you+to+trade+and+return+your+profit.+Use+my+link+to+register+{{route('register')}}%3Frefid%3D{{Auth::user()->id}}"
+                                        <a href="https://wa.me/?text=Hello+dear%2C+I+am+happy+to+invite+you+to+join+optimum-financials+%2C+a+reliable+investment+website+that+helps+you+to+trade+and+return+your+profit.+Use+my+link+to+register+{{route('register')}}%3Frefid%3D{{Auth::user()->id}}"
                                             class="btn btn-success btn-block"><i class='fa fa-whatsapp'></i> Whatsapp</a>
                                     </form>
                                 </div>
 
                                 <div class="col-6 col-md-12">
                                     <form class="forms-sample mt-2" action='ref.html' method="post">
-                                        <a href="https://t.me/share/?text=Hello+dear%2C+I+am+happy+to+invite+you+to+join+Finvestrade+%2C+a+reliable+investment+website+that+helps+you+to+trade+and+return+your+profit.+Use+my+link+to+register+{{route('register')}}%3Frefid%3D{{Auth::user()->id}}"
+                                        <a href="https://t.me/share/?text=Hello+dear%2C+I+am+happy+to+invite+you+to+join+optimum-financials+%2C+a+reliable+investment+website+that+helps+you+to+trade+and+return+your+profit.+Use+my+link+to+register+{{route('register')}}%3Frefid%3D{{Auth::user()->id}}"
                                             class="btn btn-outline-primary btn-block"><i class='fa fa-paper-plane'></i>
                                             Telegram</a>
                                     </form>

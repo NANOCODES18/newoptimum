@@ -38,7 +38,7 @@
                     <div class="row justify-content-center ">
         <div class="col-lg-8 text-center">
             <div class="section-head section-md">
-                <h5 class="heading-xs dash dash-both">Finvestrade </h5>
+                <h5 class="heading-xs dash dash-both">optimum-financials </h5>
                 <h2>Our Policy</h2>
                                         <p>Our company understands the importance of personal information of every participant. Cooperating with our company,
                         you can be sure in privacy of your personal information and in its protection by our employees.
@@ -90,7 +90,7 @@ The email address you provide for order processing, may be used to send you info
         <div class="col-lg-8 text-center">
             <div class="section-head section-md">
                                     <h2>Contact Information</h2>
-                                        <p>Finvestrade  is glad to receive your comments concerning this "Privacy Policy". In case you think that Finvestrade  does not follow the rules and violate this Statement, contact us at <a href='mailto:{{$compd? $compd->companyemail : "coming soon"}}'>{{$compd? $compd->companyemail : "coming soon"}}</a> We guarantee that we will take commercially reasonable efforts to discover and solve the problem.</p>
+                                        <p>optimum-financials  is glad to receive your comments concerning this "Privacy Policy". In case you think that optimum-financials  does not follow the rules and violate this Statement, contact us at <a href='mailto:{{$compd? $compd->companyemail : "coming soon"}}'>{{$compd? $compd->companyemail : "coming soon"}}</a> We guarantee that we will take commercially reasonable efforts to discover and solve the problem.</p>
             </div>
         </div>
     </div>

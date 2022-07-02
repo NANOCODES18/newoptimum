@@ -188,7 +188,7 @@
                 </div>
                 <div class="col-12">
                     <div class="faq-item bg-light">
-                        <h4>How long does my deposit take before it can reflect on my Finvestrade  Investments account
+                        <h4>How long does my deposit take before it can reflect on my optimum-financials  Investments account
                             dashboard?</h4>
                         <p>Your deposit will be reflected immediately once it is confirmed on the blockchain network and the
                             Company's Wallet.</p>
@@ -219,7 +219,7 @@
                     <div class="faq-item bg-light">
                         <h4>Is this company properly registered?</h4>
                         <p>Yes we are officially and properly registered with the United States, our company
-                            registration number is 602425294 and registered with the name Finvestrade LLC</p>
+                            registration number is 602425294 and registered with the name optimum-financials LLC</p>
                     </div>
                 </div>
                 <div class="col-12">
@@ -232,9 +232,9 @@
                 </div>
                 <div class="col-12">
                     <div class="faq-item bg-light">
-                        <h4>Is Finvestrade LLC and Finvestrade  the same?</h4>
-                        <p>Finvestrade LLC is group of companies which Finvestrade  is under and most of the executives and
-                            team of Finvestrade LLC works for Finvestrade . Finvestrade LLC serves as a Parent Company
+                        <h4>Is optimum-financials LLC and optimum-financials  the same?</h4>
+                        <p>optimum-financials LLC is group of companies which optimum-financials  is under and most of the executives and
+                            team of optimum-financials LLC works for optimum-financials . optimum-financials LLC serves as a Parent Company
                             and Affiliate.</p>
                     </div>
                 </div>

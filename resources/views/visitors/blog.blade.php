@@ -7,7 +7,7 @@
         <nav class="navbar navbar-expand-lg sticky-top change" id="navbar" >
             <a class="navbar-brand" href="{{route('index')}}">
               <img src="./images/logo2send.png" alt="" width="220" height="102" style="object-fit: contain;">
-              <!-- Finvestrade  script -->
+              <!-- optimum-financials  script -->
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
           <div class="col-md-4">
               <div class="trending">
                 <h3>TRENDING</h3>
-                <!-- 24-7 Press Release Newswire Landing Page Widget Code Starts Here --> <script type="text/javascript" src="https://news.24-7pressrelease.com/247pr-news-widget.js?widgettitle=News Provided by Finvestrade  script&amp;categories=106,107,333,334,335,336,489,337,108,300,338,109,110,139,339,171,111,112,340,341,113,342,343,114,344,115,345,319,116,347,348,&amp;showRelease=1&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=0&amp;headlinecolor=2d57a1&amp;briefcolor=666666&amp;textcolor=333333&amp;typeface=arial&amp;fontsize=13&amp;width=auto&amp;headlinesepstyle=solid&amp;showimages=1&amp;numstories=5&amp;bgcolor=ffffff&amp;urldest=local"></script> <!-- 24-7 Press Release Newswire Landing Page Widget Code Ends Here -->
+                <!-- 24-7 Press Release Newswire Landing Page Widget Code Starts Here --> <script type="text/javascript" src="https://news.24-7pressrelease.com/247pr-news-widget.js?widgettitle=News Provided by optimum-financials  script&amp;categories=106,107,333,334,335,336,489,337,108,300,338,109,110,139,339,171,111,112,340,341,113,342,343,114,344,115,345,319,116,347,348,&amp;showRelease=1&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=0&amp;headlinecolor=2d57a1&amp;briefcolor=666666&amp;textcolor=333333&amp;typeface=arial&amp;fontsize=13&amp;width=auto&amp;headlinesepstyle=solid&amp;showimages=1&amp;numstories=5&amp;bgcolor=ffffff&amp;urldest=local"></script> <!-- 24-7 Press Release Newswire Landing Page Widget Code Ends Here -->
 
               </div>
               <div class="stocks">

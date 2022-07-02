@@ -57,7 +57,7 @@
             </div><!-- .col -->
             <div class="col-lg-6">
                 <div class="text-block">
-                    <h5 class="heading-xs dash">Finvestrade </h5>
+                    <h5 class="heading-xs dash">optimum-financials </h5>
                     <h2>Oil trading with CFD</h2>
                     <p class="lead">
                                             Surprising as it might be, anyone can invest in the oil market to make a profit.

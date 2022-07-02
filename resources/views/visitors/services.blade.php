@@ -95,7 +95,7 @@
             <div class="col-lg-5 offset-lg-1">
                 <div class="text-block">
                     <h3>Retirement Planning</h3>
-                    <p>Saving for retirement can be a daunting task, but with a sound strategy, it’s well within reach. Finvestrade  is here to
+                    <p>Saving for retirement can be a daunting task, but with a sound strategy, it’s well within reach. optimum-financials  is here to
                         bring clarity to retirement... </p>
                     <a href="{{route('retirement')}}" class="btn">Read More</a>
                 </div>
@@ -127,7 +127,7 @@
                 <div class="text-block">
                     <h3>Cryptocurrencies</h3>
                     <p>
-                                                Finvestrade  now offers all traders the opportunity to trade a wide range of the top ranked digital
+                                                optimum-financials  now offers all traders the opportunity to trade a wide range of the top ranked digital
                         coins 24/7*. Today cryptocurrencies have become known to most people...
                                                 </p>
                     <a href="{{route('cryptoplans')}}" class="btn">Read More</a>

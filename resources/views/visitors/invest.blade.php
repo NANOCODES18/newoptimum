@@ -5,7 +5,7 @@
         <nav class="navbar navbar-expand-lg sticky-top change" id="navbar" >
             <a class="navbar-brand" href="{{route('index')}}">
               <img src="./images/logo2send.png" alt="" width="220" height="102" style="object-fit: contain;">
-              <!-- Finvestrade  script -->
+              <!-- optimum-financials  script -->
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@
 
           <div class="text">
             <h1>INVEST WITH US</h1>
-            <p>Finvestrade  script is dedicated to helping Investment enthusiasts reach their desired goals and broaden their financial horizons.
+            <p>optimum-financials  script is dedicated to helping Investment enthusiasts reach their desired goals and broaden their financial horizons.
               <br>
         We seek to provide maximum security, privacy and a world class investment expertise across the crypto market.
         Coupled with a wide range of experience in the market, we transform new investment ideas into practical investment
