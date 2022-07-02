@@ -449,7 +449,7 @@ allowfullscreen>
 </div>
 
 <div class="buy-crypto" data-aos="zoom-in">
-<h3>Fores Trading</h3>
+<h3>Forex Trading</h3>
 <p>Forex is a portmanteau of foreign currency and exchange. </p>
 <button><a href="user/login and signup/signup.html">Invest in stocks</a></button>
 
