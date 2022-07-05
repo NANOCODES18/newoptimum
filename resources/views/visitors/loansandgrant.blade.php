@@ -59,24 +59,24 @@
         </div><!-- .col -->
         <div class="col-lg-8">
             <div class="text-block">
-                <h5 class="heading-xs dash">Finvestrade </h5>
+                <h5 class="heading-xs dash">optimum-financials </h5>
                 <h2>Loans and Grants</h2>
                 <p class="lead">
                                         Getting a loan doesn’t have to be intimidating, with the right lender it can be
                        a simple process. You only need a lender committed to taking the mystery out of the mortgage loan
-                       process! At Finvestrade , we understand! Our investors want simple facts, honest answers
+                       process! At optimum-financials , we understand! Our investors want simple facts, honest answers
                        and competitive products.
 
-DGS automatically offers loan services to investors with over $50,000 investment either in our normal Finvestrade  financial
+DGS automatically offers loan services to investors with over $50,000 investment either in our normal optimum-financials  financial
 
 Services packages or the NFP plans. Investors over $50,000 are entitled to loans of $200,000-1millon dollars yearly with 5%
 paid monthly, or the investor could wish to compound the interest till the time limit, provided all required information and
-identity of the investor are duly confirmed by Finvestrade  loan board.
+identity of the investor are duly confirmed by optimum-financials  loan board.
 
 Every investor above $50,000 is provided with a personal account manager and the investor has a direct communication with
 the manager in order to see that our loan offers are secured.
 
-GREAT INVESTING WITH Finvestrade  FAMILY
+GREAT INVESTING WITH optimum-financials  FAMILY
                                         </p>
             </div>
         </div><!-- .col -->

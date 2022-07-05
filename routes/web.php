@@ -94,7 +94,6 @@ Route::get('/bonus_view_id/{id}', [App\Http\Controllers\adminController::class, 
 Route::get('/bonus_view', [App\Http\Controllers\adminController::class, 'bonus_view'])->name('bonus_view');
 
 
-Route::get('/bonus_send', [App\Http\Controllers\adminController::class, 'bonus_send'])->name('bonus_send');
 
 //penalty send
 //penalty
@@ -515,7 +514,7 @@ Route::get ('/cryptoplan', [App\Http\Controllers\Userdashcontroller::class, 'cry
 
 //visitors routes
 
-Route::get('/', [App\Http\Controllers\VisitorController::class, 'index'])->name('index');
+Route::get('/', [App\Http\Controllers\VisitorController::class, 'index'])->name('/');
 Route::get('/index', [App\Http\Controllers\VisitorController::class, 'index'])->name('index');
 Route::get('/about', [App\Http\Controllers\VisitorController::class, 'about'])->name('about');
 Route::get('/invest', [App\Http\Controllers\VisitorController::class, 'invest'])->name('invest');

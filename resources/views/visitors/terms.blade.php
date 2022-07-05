@@ -37,7 +37,7 @@
                 <div class="container">
                     <div class="slide-captions text-center text-light">
 
-                        <span class="strong">Finvestrade-fm.com</span>
+                        <span class="strong">optimum-financials-fm.com</span>
                         <h1>Legal/Terms and Conditions</h1>
 
                     </div>
@@ -54,18 +54,18 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="text-center">Finvestrade-fm.com</p>
+                        <p class="text-center">optimum-financials-fm.com</p>
 
                         <div class="text-container">
 
-                            <p> By clicking “I Agree” (in the Finvestrade-fm.com) to these Terms of Service (or "Disclaimer")
-                                or by accessing the Finvestrade-fm.com, you acknowledge that you have read and agree to the following
-                                statements, disclaimers, and limitation of liability. If you don’t agree, you may not use Finvestrade-fm.com. </p>
+                            <p> By clicking “I Agree” (in the optimum-financials-fm.com) to these Terms of Service (or "Disclaimer")
+                                or by accessing the optimum-financials-fm.com, you acknowledge that you have read and agree to the following
+                                statements, disclaimers, and limitation of liability. If you don’t agree, you may not use optimum-financials-fm.com. </p>
 
 
 
-                            <p>1.	No Guarantee of Security. Finvestrade-fm.com endeavors to take reasonable steps to protect your personal information.
-                                However, we cannot guarantee the security of any data you disclose online. By accessing Finvestrade-fm.com, you accept
+                            <p>1.	No Guarantee of Security. optimum-financials-fm.com endeavors to take reasonable steps to protect your personal information.
+                                However, we cannot guarantee the security of any data you disclose online. By accessing optimum-financials-fm.com, you accept
                                 the inherent security risks of providing information and dealing online over the Internet and will not hold us
                                 responsible for any breach of security. </p>
 
@@ -73,16 +73,16 @@
                             <p>2.	Assumption of Network Risks. You accept and acknowledge and accept the various risks inherent to using
                                 digital currency network including but not limited to hardware failure, software issues, internet connection failure,
                                  malicious software, third party interference leading to access to your wallet and other user data,
-                                 unknown vulnerabilities and unanticipated changes to the protocol. You accept and acknowledge that Finvestrade-fm.com will
+                                 unknown vulnerabilities and unanticipated changes to the protocol. You accept and acknowledge that optimum-financials-fm.com will
                                  not be responsible for any communication failures, disruptions, errors, distortions or delays you may experience
-                                 when using Finvestrade-fm.com, however caused and will not be responsible for any harm occurring as a result of such risks.</p>
+                                 when using optimum-financials-fm.com, however caused and will not be responsible for any harm occurring as a result of such risks.</p>
 
 
                             <p>3.	Assumption of Risk of Trading Digital Currencies. 
                                 You accept and acknowledge the legal risks inherent in trading digital currencies. </p>
 
                             <p>
-                                4.	No Finvestrade-fm.com Liability. We will not be responsible or liable to you for any loss and take no responsibility
+                                4.	No optimum-financials-fm.com Liability. We will not be responsible or liable to you for any loss and take no responsibility
                                 for and will not be liable to you for any use of the Wallet, including but not limited to any losses, damages
                                 or claims arising from:
                             </p>
@@ -119,24 +119,24 @@
                             <p>YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE WALLET IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO
                                 SATISFACTORY QUALITY, PERFORMANCE, ACCURACY AND EFFORT IS WITH YOU. THE SERVICES ARE PROVIDED ON AN “AS IS” AND
                                 “AS AVAILABLE” BASIS WITHOUT ANY REPRESENTATION OR WARRANTY, WHETHER EXPRESS, IMPLIED OR STATUTORY. TO THE MAXIMUM
-                                EXTENT PERMITTED BY APPLICABLE LAW Finvestrade-fm.com SPECIFICALLY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTIES OF TITLE,
-                                MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND/OR NON-INFRINGEMENT.Finvestrade-fm.com DOES NOT MAKE ANY REPRESENTATIONS OR
+                                EXTENT PERMITTED BY APPLICABLE LAW optimum-financials-fm.com SPECIFICALLY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTIES OF TITLE,
+                                MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND/OR NON-INFRINGEMENT.optimum-financials-fm.com DOES NOT MAKE ANY REPRESENTATIONS OR
                                 WARRANTIES THAT ACCESS TO THE WALLET OR ANY OF THE MATERIALS CONTAINED THEREIN WILL BE CONTINUOUS, UNINTERRUPTED,
                                 TIMELY, OR ERROR-FREE.
                             </p>
                             <p>Limitation of Liability</p>
                             <p>
-                                TO THE MAXIMUM EXTENT NOT PROHIBITED BY LAW,Finvestrade-fm.com SHALL NOT BE LIABLE FOR DAMAGES OF ANY TYPE,
+                                TO THE MAXIMUM EXTENT NOT PROHIBITED BY LAW,optimum-financials-fm.com SHALL NOT BE LIABLE FOR DAMAGES OF ANY TYPE,
                                 WHETHER DIRECT OR INDIRECT, ARISING OUT OF OR IN ANY WAY RELATED TO YOUR USE OR INABILITY TO USE THE WALLET
                                 INCLUDING BUT NOT LIMITED TO DAMAGES ALLEGEDLY ARISING FROM THE COMPROMISE OR LOSS OF YOUR LOGIN CREDENTIALS
                                 OR FUNDS, OR LOSS OF OR INABILITY TO RESTORE ACCESS FROM YOUR BACKUP PHRASE, OR FOR MISTAKES, OMISSIONS,
                                 INTERRUPTIONS, DELAYS, DEFECTS AND/OR ERRORS IN THE TRANSMISSION OF TRANSACTIONS OR MESSAGES TO THE NETWORK,
                                 OR THE FAILURE OF ANY MESSAGE TO SEND OR BE RECEIVED BY THE INTENDED RECIPIENT IN THE INTENDED FORM, OR FOR
-                                DIMINUTION OF VALUE OF ETHER OR ANY OTHER DIGITAL TOKEN OR DIGITAL ASSET ON THE NETWORK.Finvestrade-fm.com SHALL NOT BE LIABLE
+                                DIMINUTION OF VALUE OF ETHER OR ANY OTHER DIGITAL TOKEN OR DIGITAL ASSET ON THE NETWORK.optimum-financials-fm.com SHALL NOT BE LIABLE
                                 UNDER ANY CIRCUMSTANCES FOR ANY LOST PROFITS OR ANY SPECIAL, INCIDENTAL, INDIRECT, INTANGIBLE, OR CONSEQUENTIAL
                                 DAMAGES, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR OTHERWISE,
                                 ARISING OUT OF OR IN CONNECTION WITH AUTHORIZED OR UNAUTHORIZED USE OF THE WALLET, EVEN IF AN AUTHORIZED
-                                REPRESENTATIVE OF Finvestrade-fm.com HAS BEEN ADVISED OF OR KNEW OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES.
+                                REPRESENTATIVE OF optimum-financials-fm.com HAS BEEN ADVISED OF OR KNEW OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES.
                             </p>
 
                         </div>

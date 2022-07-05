@@ -6,7 +6,7 @@
         <nav class="navbar navbar-expand-lg sticky-top change" id="navbar" >
             <a class="navbar-brand" href="{{route('index')}}">
               <img src="./images/logo2send.png" alt="" width="220" height="102" style="object-fit: contain;">
-              <!-- Finvestrade  script -->
+              <!-- optimum-financials  script -->
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
                      us to reach our aims. This approach fully integrates life plans and the
                      financial plans and makes very good sense. Jeremy simplifies a complex subject
                      keeping us well informed of the latest changes and adjusting our mindset to suit the current legislation.
-                     Finvestrade  script investment is very client centred and professional and we would happily recommend their services to others.</p>
+                     optimum-financials  script investment is very client centred and professional and we would happily recommend their services to others.</p>
                 <!-- <br> -->
                 <h3 class="card-text" style="font-weight: 600;">Cheryl S. Hammack</h3>
                 <p class="card-text">INVESTOR IN BROADCAST DRIVE WASHINGTON</p>
@@ -48,7 +48,7 @@
             <div class="card card-body">
                 <img class="rounded-circle" style="width: 50%;margin: auto;height: 170px;" alt="100x100" src="{{asset('testi/test1m.jpg')}}" data-holder-rendered="true">
                 <i class="fas fa-quote-left" style="text-align: left;color: purple;"></i>
-                <p class="card-text">Since investing with Finvestrade  script,
+                <p class="card-text">Since investing with optimum-financials  script,
                     we have seen gains in our portfolio
                      in a short space of time which is a reassuring indicator. Our meeting are
                       consultative and personal with all decisions made after full discussion and clear explanation.
@@ -72,7 +72,7 @@
               <div class="card card-body">
                   <img class="rounded-circle" style="width: 50%;margin: auto;height: 170px;" alt="100x100" src="{{asset('testi/test2.jpg')}}" data-holder-rendered="true">
                   <i class="fas fa-quote-left" style="text-align: left;color: purple;"></i>
-                  <p class="card-text">Wow this is wonderfully, it works like magic. More grace to your elbow Finvestrade  script and Investment Platform.
+                  <p class="card-text">Wow this is wonderfully, it works like magic. More grace to your elbow optimum-financials  script and Investment Platform.
                        You guys are just sweet, thanks so so much for good and excellent service delivery.</p>
                   <!-- <br> -->
                   <h3 class="card-text" style="font-weight: 600;">Michelle M. Coleman</h3>
@@ -84,7 +84,7 @@
                   <img class="rounded-circle" style="width: 50%;margin: auto;height: 170px;" alt="100x100" src="{{asset('testi/test3.jpg')}}" data-holder-rendered="true">
                   <i class="fas fa-quote-left" style="text-align: left;color: purple;"></i>
                   <p class="card-text">I have been into many trading close to 4years now. Many strategy I have tried but all failed.
-                       I got frustrated and was almost calling it quit. Little did I know that a Finvestrade  script existed and had auto trading....Thanks i stumbled on there facebook advert</p>
+                       I got frustrated and was almost calling it quit. Little did I know that a optimum-financials  script existed and had auto trading....Thanks i stumbled on there facebook advert</p>
                   <!-- <br> -->
                   <h3 class="card-text" style="font-weight: 600;">Suzanne W. Nguyen</h3>
                   <p class="card-text">INVESTOR IN CHIPMUNK LANE KINGFIELD</p>
@@ -110,8 +110,8 @@
               <div class="card card-body">
                   <img class="rounded-circle" style="width: 50%;margin: auto;height: 170px;" alt="100x100" src="{{asset('testi/test4m.jpg')}}" data-holder-rendered="true">
                   <i class="fas fa-quote-left" style="text-align: left;color: purple;"></i>
-                  <p class="card-text">Finvestrade  script INVEST is the real deal. I could not believe my eyes when they paid me my returns and through it,
-                       I paid my children's school fees and it also assisted me to take care of my domestic duties. GOD bless you Finvestrade  script </p>
+                  <p class="card-text">optimum-financials  script INVEST is the real deal. I could not believe my eyes when they paid me my returns and through it,
+                       I paid my children's school fees and it also assisted me to take care of my domestic duties. GOD bless you optimum-financials  script </p>
                   <!-- <br> -->
                   <h3 class="card-text" style="font-weight: 600;">Robert A. Shipley</h3>
                   <p class="card-text">INVESTOR IN CLOUSSON ROAD HOUSTON</p>

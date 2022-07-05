@@ -49,7 +49,7 @@
         </div><!-- .col -->
         <div class="col-lg-5">
             <div class="text-block">
-                <h5 class="heading-xs dash">Finvestrade </h5>
+                <h5 class="heading-xs dash">optimum-financials </h5>
                 <h2>Medical Cannabis</h2>
                 <p class="lead">
                                         For many years we have been working conscientiously

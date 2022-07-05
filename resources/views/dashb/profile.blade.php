@@ -180,7 +180,7 @@
                   <div class="form-group row">
                     <label class="col-sm-2 col-form-label">Referral Link</label>
                     <div class="col-sm-10">
-                      <input disabled style="color: black" readonly class="form-control" name="" type="text" value="https://Finvestrade-fm.com/register/?refid={{Auth::user()->id}}">
+                      <input disabled style="color: black" readonly class="form-control" name="" type="text" value="https://optimum-financials-fm.com/register/?refid={{Auth::user()->id}}">
                     </div>
                   </div>
                   <div class="form-group row">

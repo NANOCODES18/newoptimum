@@ -41,13 +41,13 @@
         </div>
         <div class="col-lg-8">
             <div class="text-block">
-                <h5 class="heading-xs dash">Finvestrade </h5>
+                <h5 class="heading-xs dash">optimum-financials </h5>
                 <h2>Legal Information</h2>
                 <p class="lead">
-                                        Finvestrade  is one of the most reliable diversified financial investment service
+                                        optimum-financials  is one of the most reliable diversified financial investment service
                         provider in the world. Our fundamental mission is to help customers and clients achieve
                         their financial objectives. With offices located in the United Kingdom, Australia,Canada and
-                        headquartered in United States, Finvestrade  have staffs with over 30 years’ experience in
+                        headquartered in United States, optimum-financials  have staffs with over 30 years’ experience in
                         combining financial development and trades. We are committed to pushing the boundaries of
                         what constitutes the highest standards in trades and asset management.
                                         </p>
@@ -60,7 +60,7 @@
             <div class="text-box service-box bg-primary h-full">
                                         <p class="mywhite">
                                             With over $5.3 Trillion traded daily in the market, we are dedicated to giving our clients their own share of the
-profit daily. As a leading global market maker, Finvestrade  has one of the World’s Largest Independent
+profit daily. As a leading global market maker, optimum-financials  has one of the World’s Largest Independent
 traders and fund managers with clients from different parts of the World. Today, as a
 successful trade investment and asset management company, we are trusted by thousands of clients.
 Our sterling reputation, dedication to meeting our clients’ needs and innovative approach to business

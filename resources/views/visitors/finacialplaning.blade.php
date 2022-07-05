@@ -57,7 +57,7 @@
         </div><!-- .col -->
         <div class="col-lg-5">
             <div class="text-block">
-                <h5 class="heading-xs dash">Finvestrade </h5>
+                <h5 class="heading-xs dash">optimum-financials </h5>
                 <h2>Financial Planning</h2>
                 <p class="lead">
                                         A financial plan is a comprehensive evaluation of an investor’s current and future financial state by using
