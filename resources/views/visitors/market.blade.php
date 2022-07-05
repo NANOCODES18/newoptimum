@@ -27,7 +27,7 @@
 
 <div class="market-update"></div>
 
-<script src="https://crypto.com/price/static/widget/index.js"></script>
+{{-- <script src="https://crypto.com/price/static/widget/index.js"></script>
 
 <script
 type="text/javascript"
@@ -46,6 +46,6 @@ data-bcolor="#fff"
 data-tcolor="#333"
 data-ccolor="#333"
 data-pcolor="#333"
-></div>
+></div> --}}
 
 @endsection
