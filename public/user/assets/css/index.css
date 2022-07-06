@@ -28,7 +28,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px;
- 
+  /* width: 100vw; */
+  animation: bgchange 20s infinite alternate;
 }
 /* @keyframes bgchange {
   0%{background-image: url(../../images/romeo.gif);}
@@ -557,7 +558,55 @@ button {
   margin: 10px;
 font-size: 30px;
 }
+/* .deposits {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 50px;
+  box-shadow: 0px 4px 22px -1px #00000014;
+}
+.deposits .latest h2 {
+  color: #3e45ff;
+  font-size: 17px;
+}
+.deposits .latest .latest-box {
+  background-color: white;
+  width: 400px;
+  height: 450px;
+  border-radius: 7px;
+  overflow-y: scroll;
+  border: 1px solid grey;
+  box-shadow: 0px 4px 22px -1px #00000014;
+}
+.deposits .latest .latest-box .withdraw-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  box-shadow: 0px 4px 22px -1px #00000014;
+}
+.withdraw-container .scroll-amount p {
+  color: lightgreen;
+}
+.withdraw-container .img {
+  display: flex;
+} */
+/* box-scroll-bar */
+/* .deposits .latest .latest-box::-webkit-scrollbar {
+  width: 10px;
+}
+.deposits .latest .latest-box::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+.deposits .latest .latest-box::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9;
+}
+.deposits .latest .latest-box::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
 
+  border-radius: 5px;
+}
 /* asset-management */
 .asset-management {
   display: flex;
@@ -1005,8 +1054,35 @@ footer li {
 footer li a {
   text-decoration: none;
 }
+/* .last-box-section {
+  display: flex;
+  justify-content: center;
 
-
+  padding: 20px;
+  position: relative;
+} */
+/* .last-empty {
+  height: 300px;
+  width: 300px; */
+/* background: #f5f5f5; */
+/* background-color: gold;
+  position: absolute;
+} */
+/* .lEmpty {
+  left: 25%;
+  top: 15%;
+} */
+/* .emmy {
+  right: 25%;
+  top: 15%;
+  z-index: -1;
+} */
+/* .last-empty2 {
+  height: 400px;
+  width: 300px;
+  background: #fbb7b7;
+  position: relative;
+} */
 .last-box-sec {
   display: flex;
   align-items: center;
@@ -1262,19 +1338,7 @@ footer li a {
 }
 @media (max-width:400px) {
  
-  .header-contain {
-    height: 60vh !important;
-    
-    
-    background-position: center;
-    background-image: url(../images/Crypto_25_Feb_08\ 1.svg)!important;
-    /* background: linear-gradient(155.22deg, rgba(136, 5, 95, 0.2) 23.79%, rgba(9, 64, 115, 0.2) 64.82%, rgba(25, 25, 26, 0.2) 93.5%); */
   
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10px;
-   
-  }
  
   .info-table tr, .info-table td{
     border: none;
@@ -1316,18 +1380,8 @@ footer li a {
   }
 }
 @media(max-width:480px){
-  .header-contain {
-    height: 60vh!important;
-    
-    
-    background-position: center;
-    background-image: url(../images/Crypto_25_Feb_08\ 1.svg)!important;
-    /* background: linear-gradient(155.22deg, rgba(136, 5, 95, 0.2) 23.79%, rgba(9, 64, 115, 0.2) 64.82%, rgba(25, 25, 26, 0.2) 93.5%); */
-  
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10px;
-   
+  header .header-contain{
+    height: 60vh;
   }
 }
 @media (max-width: 768px) {
@@ -1363,24 +1417,11 @@ footer li a {
   }
 }
 #preloader{
-  background: rgb(209, 209, 209);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: rgb(209, 209, 209) url(../../images/preloader.gif) no-repeat center center;
+  background-size: 30%;
   height: 100vh;
   width: 100%;
-  z-index: 100;
   position: fixed;
+  z-index: 100;
  
-}
-#preloader svg{
-  width: 10%;
-  height: 10%;
-  animation: spining-city 1.5s infinite linear;
-}
-@keyframes spining-city {
-  
-  100% {
-    transform: rotate(359deg);
-  }
 }
