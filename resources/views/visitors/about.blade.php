@@ -24,7 +24,7 @@
             <div class="card-text">
                 <h3>Stocks & ETF</h3>
                 <p>
-                    A stock or share is a financial instrument that  represents a proportionate claim on a company
+                    A stock or share is a financial instrument that represents represents a proportionate claim on a company
                     or corporation, its assets and and earnings...An exchange-traded fund (E.T.F)is a type of investment
                     fund and exchange-traded product, i.e. they are traded on stock exchanges, We offer both services free
                     to the public for them to make profits with us

@@ -222,7 +222,7 @@ hr {
     #7c3394 51.04%,
     #4a058a 100%
   );
-  color: white !important;
+  color: white;
 }
 .teammy h3{
   color: white;
@@ -390,10 +390,6 @@ footer .input input[type="text"] ::placeholder {
   .main-brother {
     margin-top: 700px;
   }
-  .team-members {
-    height: 350px;
-   
-  }
 }
 
 @media (max-width: 900px) {
@@ -450,10 +446,6 @@ footer .input input[type="text"] ::placeholder {
     grid-template-columns: 1fr 1fr;
     margin: 20px;
     padding: 20px;
-  }
-  .team-members {
-    height: 350px;
-   
   }
 }
 @media (max-width: 480px) {
