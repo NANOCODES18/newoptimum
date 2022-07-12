@@ -202,7 +202,7 @@ hr {
 }
 .team-members {
   height: 250px;
- background-color: white;
+ background-color: white !important;
   margin: 20px;
   padding: 10px;
   text-align: center;
@@ -221,7 +221,7 @@ hr {
     #0f8cff 0%,
     #7c3394 51.04%,
     #4a058a 100%
-  );
+  )!important;
   color: white;
 }
 .teammy h3{
@@ -388,7 +388,11 @@ footer .input input[type="text"] ::placeholder {
 }
 @media (max-width: 1030px) {
   .main-brother {
-    margin-top: 700px;
+    margin-top: 750px;
+  }
+  .team-members {
+    height: 350px;
+   
   }
 }
 
@@ -401,7 +405,7 @@ footer .input input[type="text"] ::placeholder {
     margin: 20px;
   }
   .main-brother {
-    margin-top: 800px;
+    margin-top: 900px;
   }
   .cert {
     flex-direction: column;
@@ -429,7 +433,7 @@ footer .input input[type="text"] ::placeholder {
     top: -2000;
   }
   .main-brother {
-    margin-top: 1300px;
+    margin-top: 1350px;
   }
   .main-sister {
     margin: 40px 0px;
@@ -461,5 +465,16 @@ footer .input input[type="text"] ::placeholder {
     width: 50px;
     
   }
+}
+@media (max-width:290px) {
+  .main-brother {
+    margin-top: 1450px;
+  }
+  .track-record {
+    margin-top: 50px ;
+    text-align: center;
+    font-size: 30px;
+    
+}
 }
 

@@ -1417,11 +1417,25 @@ footer li a {
   }
 }
 #preloader{
-  background: rgb(209, 209, 209) url(../../images/preloader.gif) no-repeat center center;
-  background-size: 30%;
+  background: rgb(209, 209, 209);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   width: 100%;
-  position: fixed;
   z-index: 100;
+  position: fixed;
  
 }
+#preloader svg{
+  width: 10%;
+  height: 10%;
+  animation: spining-city 1.5s infinite linear;
+}
+@keyframes spining-city {
+  
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
