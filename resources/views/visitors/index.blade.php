@@ -14,7 +14,7 @@
 
 <div class="card-father parent">
   <div class="btc-marque" style="background-color: transparent;">
-    <iframe src="https://bit2me.com/widget/crypto-carousel/v1" style="display:block;width:100%;height:40px;" frameborder="0"></iframe>
+    <iframe src="https://bit2me.com/widget/crypto-carousel/v1" style="display:block;width:100%;height:40px;" frameborder="0" loading="lazy" ></iframe>
   </div>
 </div>
 
@@ -29,7 +29,7 @@
 
 <div class="card" data-aos="fade-up-left">
 <img
-  src="{{asset('user/assets/images/investment-model-svgrepo-com 1..svg')}}" 
+  src="{{asset('user/assets/images/investment-model-svgrepo-com 1.svg')}}" 
   alt=""
 />
 <div class="card-text" >
@@ -37,7 +37,7 @@
   <p>
     A binary option is a financial exotic option in which the payoff is either some fixed monetary amount or nothing at all. The two main types of binary options are the cash-or-nothing binary option and the asset-or-nothing binary option. Which you are free to enjoy with us
   </p>
-  <button>Read more</button>
+  <button><a href="{{route('about')}}"> Read more</a> </button>
 </div>
 </div>
 <div class="card" data-aos="zoom-in">
@@ -48,23 +48,24 @@
 <div class="card-text" >
   <h3>Stocks & ETF</h3>
   <p>
-    A stock or share is a financial instrument that represents a proportionate claim on a company or corporation, its assets and 
+    A stock or share is a financial instrument that  represents a proportionate claim on a company or corporation, its assets and 
   and earnings...An exchange-traded fund (E.T.F)is a type of investment fund and exchange-traded product, i.e. they are traded on stock exchanges, We offer both services free to the public for them to make profits with us
   </p>
-  <button>Read more</button>
+  <button><a href="{{route('about')}}"> Read more</a> </button>
 </div>
 </div>
 <div class="card" data-aos="fade-up-right">
 <img
   src="{{asset('user/assets/images/coin-stack-svgrepo-com (1) 1.svg')}}" 
   alt=""
+  loading="lazy"
 />
 <div class="card-text">
   <h3>Crypto Currency</h3>
   <p>
     {{$compd? $compd->companyname:"company name"}} now offers all traders the opportunity to trade a wide range of the top ranked digital coins 24/7*. 
     Today cryptocurrencies have become known to most people, Surprising as it might be, anyone can invest in the crypto market to make a profit  </p>
-  <button>Read more</button>
+  <button><a href="{{route('about')}}"> Read more</a> </button>
 </div>
 </div>
 </div>
@@ -75,12 +76,12 @@
 </div>
 </div>
 <div class="laptop">
-<img src="{{asset('user/assets/images/4 1.png')}}" alt="">
+<img src="{{asset('user/assets/images/4 1.png')}}"loading="lazy" alt="">
 </div>
 <div class="trade-option">
 <div class="trading">
 <div class="trading-content"data-aos="fade-up-right">
-<img src="{{asset('user/assets/images/Group (1).svg')}}" alt="time">
+<img src="{{asset('user/assets/images/Group (1).svg')}}" loading="lazy" alt="time">
 <div class="text">
 <h3>OPEN AN ACCOUNT</h3>
 <p>To open an account, simply click on the "Register" button on the main page. The next page is the registration form that you need to fill out. This shouldn’t take more than a few minutes. Once you’ve done that, you’ll receive an email from us, and you’re done.
@@ -88,7 +89,7 @@
 </div>
 </div>
 <div class="trading-content" data-aos="fade-up-right">
-<img src="{{asset('user/assets/images/Group (1).svg')}}" alt="time">
+<img src="{{asset('user/assets/images/Group (1).svg')}}" loading="lazy" alt="time">
 <div class="text">
 <h3>LOGIN TO MEMBER'S AREA</h3>
 <p>Once you’ve opened an account, the next thing would be to familiarize yourself with how different sections of your account works. To start, go to the login page and enter your registration username and chosen password.
@@ -96,7 +97,7 @@
 </div>
 </div>
 <div class="trading-content" data-aos="fade-up-right">
-<img src="{{asset('user/assets/images/Group (1).svg')}}" alt="time">
+<img src="{{asset('user/assets/images/Group (1).svg')}}" loading="lazy" alt="time">
 <div class="text">
 <h3>MAKE YOUR FIRST DEPOSIT & WATCH YOUR CAPITAL GROW</h3>
 <p>To start earning, you need to make a deposit. You can do this from the deposit section of your account. The minimum deposit amount is different for different plans, and you are allowed to make as many deposits as you want. After you have made a deposit, select an investment plan and invest in then watch your investment grow.
@@ -104,28 +105,28 @@
 </div>
 </div>
 </div>
-<div class="laptop"><img src="{{asset('user/assets/images/4 1.svg')}}" alt="laptop"></div>
+<div class="laptop"><img src="{{asset('user/assets/images/4 1.svg')}}" loading="lazy" alt="laptop"></div>
 </div>
 
 <div class="why-us">
 <h2>why choose us</h2>
 <div class="funds">
 <div class="wallet-add">
-<img src="{{asset('user/assets/images/download-bitcoin.png')}}" alt="">
+<img src="{{asset('user/assets/images/download-bitcoin.png')}}" loading="lazy" alt="">
 <div class="fund-text">
 <h3>Download Bitcoin Wallet</h3>
 <p>Get it on PC or Mobile to create, send and receive bitcoins.</p>
 </div>
 </div>
 <div class="wallet-add">
-<img src="{{asset('user/assets/images/add-bitcoins.png')}}" alt="">
+<img src="{{asset('user/assets/images/add-bitcoins.png')}}" loading="lazy" alt="">
 <div class="fund-text">
 <h3>Add Funds & Start Investment</h3>
 <p>Add bitcoins you’ve created or exchanged via credit card.</p>
 </div>
 </div>
 <div class="wallet-add">
-<img src="{{asset('user/assets/images/buy-sell-bitcoins.png')}}" alt="">
+<img src="{{asset('user/assets/images/buy-sell-bitcoins.png')}}"loading="lazy" alt="">
 <div class="fund-text">
 <h3>Withdraw Your Profit</h3>
 <p>Request for withdrawal and receive it within 1 day.</p>
@@ -133,9 +134,9 @@
 </div>
 </div>
 <div class="why-us-content">
-<img src="{{asset('user/assets/images/secure icon 2.svg')}}" alt="">
-<img src="{{asset('user/assets/images/TIME 2.svg')}}" alt="">
-<img src="{{asset('user/assets/images/24-hours-svgrepo-com 4 (1).svg')}}" alt="">
+<img src="{{asset('user/assets/images/secure icon 2.svg')}}" loading="lazy" alt="">
+<img src="{{asset('user/assets/images/TIME 2.svg')}}" loading="lazy" alt="">
+<img src="{{asset('user/assets/images/24-hours-svgrepo-com 4 (1).svg')}}" loading="lazy" alt="">
 </div>
 
 </div>
@@ -146,8 +147,8 @@
 
 <div class="about">
 <div class="about-img">
-<img src="{{asset('user/assets/images/earth.png')}}" alt="" class="earth" data-aos="fade-up-left" >
-<img src="{{asset('user/assets/images/bitcoin.png')}}" alt="" class="btc"  >
+<img src="{{asset('user/assets/images/earth.png')}}" alt="" loading="lazy" class="earth" data-aos="fade-up-left" >
+<img src="{{asset('user/assets/images/bitcoin.png')}}" loading="lazy" alt="" class="btc"  >
 
 </div>
 <div class="about-text">
@@ -155,7 +156,7 @@
 <P>{{$compd? $compd->companyname:"company name"}} Company is a distinctive investment company offering our investors access to high-growth investment opportunities in Bitcoin markets and other services. We implement best practices of trading & mining of Bitcoins through our operations, while offering flexibility in our investment plans. Our company benefits from an extensive network of global clients.</P>
 <h3><span>OUR MISSION</span>|OUR ADVANTAGES| OUR GUARANTY</h3>
 <P>Our aim is to utilize our expertise & knowledge which will benefit our clients and the users of our services.</P>
-<button><a href="{{asset('user/about.html')}}" style="color: white; text-decoration:none;">READ MORE</a></button>
+<button><a href="{{route('about')}}" style="color: white; text-decoration:none;">READ MORE</a></button>
 </div>
 </div>
 
@@ -395,7 +396,7 @@ We set the pace, others follow
 
     <iframe
         src="https://www.btcwidget.info/widget/liveTx/%235dbcd2/%23ffffff/%235e2ead/%23042f66/%23042f66/800/400/10"
-        width="800" height="400" frameBorder="0" scrolling="no"></iframe> </iframe>
+        width="800" height="400" frameBorder="0" scrolling="no" ></iframe> 
 
 
 
@@ -406,6 +407,7 @@ We set the pace, others follow
 <div class="video-section">
 <div class="video-frame">
 <iframe width="100%"
+loading="lazy"
 height="250px" src="https://www.youtube.com/embed/Gc2en3nHxA4"
 title="YouTube video player" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -475,7 +477,7 @@ allowfullscreen>
 <div style="border-left: 1px solid black;margin-top: 40px;padding: 15px;">
 <h1 id="demo"></h1>
 <h6>TRADES OPENED ON {{$compd? $compd->companyname:"company name"}}</h6>
-<script>
+<script defer>
 
 let interval = setInterval(function(){
   let now = new Date();
@@ -586,7 +588,7 @@ display: block;
 <!-- TradingView Widget END -->
 
 
-<script>
+<script defer>
 let cs = 0;
 let ts = 6;
 
@@ -616,7 +618,7 @@ setInterval(function(){
     <div class="swiper-slide slider-card">
       <div class="card-content">
         <div class="image">
-          <img src="{{asset('user/images/profile1.jpg')}}"  alt="">
+          <img src="{{asset('user/images/profile1.jpg')}}" loading="lazy" alt="">
         </div>
         <div class="rating">
           <span class="name">Willie E. Maynard</span>
@@ -627,7 +629,7 @@ setInterval(function(){
     <div class="swiper-slide slider-card">
       <div class="card-content">
         <div class="image">
-          <img src="{{asset('user/images/profile2.jpg')}}"  alt="">
+          <img src="{{asset('user/images/profile2.jpg')}}" loading="lazy"  alt="">
         </div>
         <div class="rating">
           <span class="name">Francesca Boyle</span>
@@ -638,7 +640,7 @@ setInterval(function(){
     <div class="swiper-slide slider-card">
       <div class="card-content">
         <div class="image">
-          <img src="{{asset('user/images/profile3.jpg')}}"  alt="">
+          <img src="{{asset('user/images/profile3.jpg')}}" loading="lazy" alt="">
         </div>
         <div class="rating">
           <span class="name">Ryan J. Roseberry</span>
@@ -649,7 +651,7 @@ setInterval(function(){
     <div class="swiper-slide slider-card">
       <div class="card-content">
         <div class="image">
-          <img src="{{asset('user/images/profile4.jpg')}}"  alt="">
+          <img src="{{asset('user/images/profile4.jpg')}}" loading="lazy" alt="">
         </div>
         <div class="rating">
           <span class="name">Hamish Wienholt</span>
@@ -660,7 +662,7 @@ setInterval(function(){
     <div class="swiper-slide slider-card">
       <div class="card-content">
         <div class="image">
-          <img src="{{asset('user/images/profile7.jpg')}}"  alt="">
+          <img src="{{asset('user/images/profile7.jpg')}}" loading="lazy" alt="">
         </div>
         <div class="rating">
           <span class="name">Michelle M. Coleman</span>
@@ -672,7 +674,7 @@ setInterval(function(){
     <div class="swiper-slide slider-card">
       <div class="card-content">
         <div class="image">
-          <img src="{{asset('user/images/profile6.jpg')}}"  alt="">
+          <img src="{{asset('user/images/profile6.jpg')}}" loading="lazy" alt="">
         </div>
         <div class="rating">
           <span class="name">Mark K. Cool</span>
@@ -683,7 +685,7 @@ setInterval(function(){
     <div class="swiper-slide slider-card">
       <div class="card-content">
         <div class="image">
-          <img src="{{asset('user/images/profile5.jpg')}}"  alt="">
+          <img src="{{asset('user/images/profile5.jpg')}}" loading="lazy" alt="">
         </div>
         <div class="rating">
           <br>
@@ -696,7 +698,7 @@ setInterval(function(){
     <div class="swiper-slide slider-card">
       <div class="card-content">
         <div class="image">
-          <img src="{{asset('user/images/profile8.jpg')}}"  alt="">
+          <img src="{{asset('user/images/profile8.jpg')}}" loading="lazy"  alt="">
         </div>
         <div class="rating">
          
@@ -708,7 +710,7 @@ setInterval(function(){
     <div class="swiper-slide slider-card">
       <div class="card-content">
         <div class="image">
-          <img src="{{asset('user/images/profile9.jpg')}}"  alt="">
+          <img src="{{asset('user/images/profile9.jpg')}}" loading="lazy" alt="">
         </div>
         <div class="rating">
          

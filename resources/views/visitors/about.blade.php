@@ -16,7 +16,7 @@
                     nothing at all. The two main types of binary options are the cash-or-nothing binary option and the
                     asset-or-nothing binary option. Which you are free to enjoy with us
                 </p>
-                <button>Read more</button>
+                <button><a href="{{route('about')}}"> Read more</a> </button>
             </div>
         </div>
         <div class="card" data-aos="zoom-in">
@@ -24,12 +24,12 @@
             <div class="card-text">
                 <h3>Stocks & ETF</h3>
                 <p>
-                    A stock or share is a financial instrument that represents represents a proportionate claim on a company
+                    A stock or share is a financial instrument that  represents a proportionate claim on a company
                     or corporation, its assets and and earnings...An exchange-traded fund (E.T.F)is a type of investment
                     fund and exchange-traded product, i.e. they are traded on stock exchanges, We offer both services free
                     to the public for them to make profits with us
                 </p>
-                <button>Read more</button>
+                <button><a href="{{route('about')}}"> Read more</a> </button>
             </div>
         </div>
         <div class="card" data-aos="fade-up-left">
@@ -41,7 +41,7 @@
                     coins 24/7*. Today cryptocurrencies have become known to most people, Surprising as it might be, anyone
                     can invest in the crypto market to make a profit
                 </p>
-                <button>Read more</button>
+                <button><a href="{{route('about')}}"> Read more</a> </button>
             </div>
         </div>
     </div>
