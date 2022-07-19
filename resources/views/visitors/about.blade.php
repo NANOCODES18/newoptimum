@@ -16,7 +16,7 @@
                     nothing at all. The two main types of binary options are the cash-or-nothing binary option and the
                     asset-or-nothing binary option. Which you are free to enjoy with us
                 </p>
-                <button><a href="{{route('about')}}"> Read more</a> </button>
+                <button><a href="{{ route('about') }}"> Read more</a> </button>
             </div>
         </div>
         <div class="card" data-aos="zoom-in">
@@ -24,12 +24,12 @@
             <div class="card-text">
                 <h3>Stocks & ETF</h3>
                 <p>
-                    A stock or share is a financial instrument that  represents a proportionate claim on a company
+                    A stock or share is a financial instrument that represents a proportionate claim on a company
                     or corporation, its assets and and earnings...An exchange-traded fund (E.T.F)is a type of investment
                     fund and exchange-traded product, i.e. they are traded on stock exchanges, We offer both services free
                     to the public for them to make profits with us
                 </p>
-                <button><a href="{{route('about')}}"> Read more</a> </button>
+                <button><a href="{{ route('about') }}"> Read more</a> </button>
             </div>
         </div>
         <div class="card" data-aos="fade-up-left">
@@ -41,7 +41,7 @@
                     coins 24/7*. Today cryptocurrencies have become known to most people, Surprising as it might be, anyone
                     can invest in the crypto market to make a profit
                 </p>
-                <button><a href="{{route('about')}}"> Read more</a> </button>
+                <button><a href="{{ route('about') }}"> Read more</a> </button>
             </div>
         </div>
     </div>
@@ -120,7 +120,9 @@
     <div class="cert">
         <div class="certificate">
             <h2>certification</h2>
-            <div class="cert-empty"></div>
+            <div class="cert-empty">
+                <img src="{{asset('images/cert.png')}}" alt="" width="100%" height="auto" srcset="">
+            </div>
         </div>
         <div class="purpose-cover">
             <div class="purpose">
@@ -128,24 +130,26 @@
                 <div class="hr"></div>
             </div>
             <div class="ptag">
-                
-                
-                    To create value for our shareholders and maintain it over the long-term, To provide unique and high quality financial products and services which are in line with the market
-                        and comply with the principles of elth creation <br><br>
-                                  
-                    
-                    To meet the needs of customers in simple, flexible and creative ways, To provide our investors with sound investment advice, drawing on the strength of our experience and
-                    knowledge, while keeping abreast of the latest financial sector developments.
-                    <br><br>
 
 
-               
-                  
+                To create value for our shareholders and maintain it over the long-term, To provide unique and high quality
+                financial products and services which are in line with the market
+                and comply with the principles of elth creation <br><br>
 
-                        To maintain a strong work culture by attracting and rewarding high quality staff, and motivating
-                        them to
-                    
-                
+
+                To meet the needs of customers in simple, flexible and creative ways, To provide our investors with sound
+                investment advice, drawing on the strength of our experience and
+                knowledge, while keeping abreast of the latest financial sector developments.
+                <br><br>
+
+
+
+
+
+                To maintain a strong work culture by attracting and rewarding high quality staff, and motivating
+                them to
+
+
 
 
                 </p>
@@ -155,10 +159,10 @@
                 <div class="hr"></div>
             </div>
             <div class="ptag">
-                
-                    To be recognized as a regional leader in the provision of high quality business, and investment services
-                    and products.
-                
+
+                To be recognized as a regional leader in the provision of high quality business, and investment services
+                and products.
+
             </div>
         </div>
     </div>
