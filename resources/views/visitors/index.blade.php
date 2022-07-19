@@ -48,7 +48,7 @@
 <div class="card-text" >
   <h3>Stocks & ETF</h3>
   <p>
-    A stock or share is a financial instrument that represents represents a proportionate claim on a company or corporation, its assets and 
+    A stock or share is a financial instrument that represents a proportionate claim on a company or corporation, its assets and 
   and earnings...An exchange-traded fund (E.T.F)is a type of investment fund and exchange-traded product, i.e. they are traded on stock exchanges, We offer both services free to the public for them to make profits with us
   </p>
   <button>Read more</button>
@@ -228,13 +228,13 @@ We set the pace, others follow
 <div class="asset-files files2">
 <i class="fa fa-archive" aria-hidden="true"></i>
 <h2>Brokerage Account</h2>
-<p>your money is safe and sound you get guaranteed results.</p>
+<p>your money is safe and secure you get guaranteed results.</p>
 
 <div class="over-lay">
  <div class="text">
   <i class="fa fa-money" aria-hidden="true"></i>
   <h2>Brokerage Account</h2>
-  <p>your money is safe and sound you get guaranteed results.</p>
+  <p>your money is safe and secure you get guaranteed results.</p>
   <svg class="w-6 h-6"
   fill="none" stroke="currentColor" viewBox="0 0 24 24"
   xmlns="{{asset('user/http://www.w3.org/2000/svg')}}" ><path stroke-linecap="round"
@@ -246,10 +246,10 @@ We set the pace, others follow
 </div>
 </div>
 <div class="info-section">
-<h2>latest Transactions</h2>
+<h2>Latest Transactions</h2>
 <div class="info-table">
   <table>
-    <caption>latest withdrawal</caption>
+    <caption>Latest Deposits</caption>
     <tr>
       <th>ID</th>
       <th>Date</th>
@@ -312,7 +312,7 @@ We set the pace, others follow
     </tr>
   </table>
   <table>
-    <caption>latest withdrawal</caption>
+    <caption>Latest Withdrawal</caption>
     <tr>
       <th>ID</th>
       <th>Date</th>
@@ -742,10 +742,10 @@ setInterval(function(){
         <div class="card-content">
             <ul>
                 <li><i class="fa fa-dollar"></i><Span>${{$plan->maximum }}</Span> -maximum</li>
-                <li><i class="fa fa-check-circle"></i>{{$plan->percentage * $plan->noofrepeat }}%  monthly Return</li>
-                <li><i class="fa fa-check-circle"></i>  4 times</li>
+                <li><i class="fa fa-check-circle"></i>{{$plan->percentage * $plan->noofrepeat }}%  Weekly Return</li>
+               
                 <li><i class="fa fa-check-circle"></i>{{$plan->percentage }}% ROI Each time</li>
-                <li></i><i class="fa fa-dollar"></i>1,250+ Total Return</li>
+               
                 <li><i class="fa fa-check-circle"></i>{{$plan->noofrepeat }} No of Times</li>
                 <li><i class="fa fa-check-circle"></i>24/7 Support</li>
             </ul>
